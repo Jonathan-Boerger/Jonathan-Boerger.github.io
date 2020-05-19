@@ -44,7 +44,7 @@
 <!--            Have you previously accessed this website-->
             <p>Have you previously accessed this website? // Avez-vous antérieurement accéder ce
                 site web?</p>
-            <input id="q2_answer_1" type="radio"  name="q2_a" value="Yes">
+            <input id="q2_answer_1" type="radio"  name="q2_a" value="Yes" required>
             <label for="q2_answer_1">Yes // Oui</label><br>
             <input id="q2_answer_2" type="radio" name="q2_a" value="No">
             <label for="q2_answer_2">No &nbsp;// Non</label>
@@ -53,7 +53,7 @@
         <div id="q2.5">
 
             <p>Do you consider yourself part of the target audience of this website? // Considérez-vous inclue dans la population cibler par ce site web?</p>
-            <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes">
+            <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes" required>
             <label for="q2.5_answer_1">Yes // Oui</label><br>
             <input id="q2.5_answer_2" type="radio" name="q2.5_a" value="No">
             <label for="q2.5_answer_2">No &nbsp;// Non</label>
@@ -61,7 +61,7 @@
         </div>
         <div id="q3">
             <p>This website is: // Ce site web est:  </p>
-            <input id="q3_answer_1" type="radio"  name="q3_a" value="Yes">
+            <input id="q3_answer_1" type="radio"  name="q3_a" value="Yes" required>
             <label for="q3_answer_1">Visually pleasing // Attrayant</label><br>
             <input id="q3_answer_2" type="radio" name="q3_a" value="No">
             <label for="q3_answer_2"><strong>Not</strong> visually pleasing //
@@ -72,35 +72,91 @@
                 les produits que vous supposez que CP Gear vend.
             <br><span>You can select multiple options. // Vous pouvez sélectionner plusieurs
                     réponse.</span></p>
-            <input type="checkbox" id="q4_a_1">
+            <input type="checkbox" id="q4_a_1" >
             <label for="q4_a_1">Name tags //
                 Étiquettes de nom </label><br>
             <input type="checkbox" id="q4_a_2">
-            <label for="q4_a_2">Patches // Patch </label><br>
+            <label for="q4_a_2">Patches // Patchs </label><br>
             <input type="checkbox" id="q4_a_3">
-            <label for="q4_a_3"> Outdoor Apparel // </label><br>
+            <label for="q4_a_3"> Outdoor Apparel // Vêtements d'extérieur </label><br>
             <input type="checkbox" id="q4_a_4">
-            <label for="q4_a_4"> Firearms //  </label><br>
+            <label for="q4_a_4"> Firearms //
+                Armes à feu   </label><br>
             <input type="checkbox" id="q4_a_5">
-            <label for="q4_a_5"> Tactical clothing //</label><br>
+            <label for="q4_a_5"> Tactical clothing // Vêtements tactiques</label><br>
             <input type="checkbox" id="q4_a_6">
-            <label for="q4_a_6"> Knives //</label><br>
+            <label for="q4_a_6"> Knives // Des couteaux </label><br>
             <input type="checkbox" id="q4_a_7">
-            <label for="q4_a_7"> Bags &amp packs //</label><br>
+            <label for="q4_a_7"> Bags &amp packs // Sacs &amp sac à dos</label><br>
             <input type="checkbox" id="q4_a_8">
-            <label for="q4_a_8"> Stationary &amp witting supplies //</label><br>
+            <label for="q4_a_8"> Stationary &amp witting supplies // Articles de papeterie </label><br>
 
         </div>
         <div id="q5">
+            <p>To what extent does the UI encourage you to further explore the website? // De quelle mesure l’IU vous encourage à explorer davantage le site web? </p>
+            <table>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td> <label for="q5_1">1</label> </td>
+                    <td> <label for="q5_2">2</label> </td>
+                    <td> <label for="q5_3">3</label> </td>
+                    <td> <label for="q5_4">4</label> </td>
+                    <td> <label for="q5_5">5</label> </td>
+                    <td> &nbsp; </td>
+                </tr>
+                <tr>
+                    <td>Very unlikely<br>
+                        Très improbable </td>
+                    <td> <input id="q5_1" type="radio" name="q5_ans" value="1" required></td>
+                    <td> <input id="q5_2" type="radio" name="q5_ans" value="2"></td>
+                    <td> <input id="q5_3" type="radio" name="q5_ans" value="3"></td>
+                    <td> <input id="q5_4" type="radio" name="q5_ans" value="4"></td>
+                    <td> <input id="q5_5" type="radio" name="q5_ans" value="5"></td>
+                    <td> Very likely<br>
+                        Très probable  </td>
+                </tr>
+
+            </table>
 
         </div>
         <div id="q6">
+            <br>
+            <label for="q6_ans">Do you have any additional comments or feedback about the UI? //
+                Avez-vous
+                des
+                commentaire supplémentaire vis-à-vis l’IU? </label><br>
 
+            <textarea id="q6_ans"
+                      placeholder="Write your comments here. // Écrivez vos commentaires ici." rows="4" cols="50"></textarea>
+
+        </div>
+        <div><br>
+            <input type="submit">
+        </div>
+    </form>
+    <form>
+        <div>
+            <p> Thank you for having completed the survey! // Merci d'avoir completer le
+                sondage!</p>
+            <label for="email_add">Add your email if you are interested in completing
+            future surveys. // Fournissez votre adresse email si vous voulez compléter d’autre sondage a l'avenir.</label>
+            <br>
+            <input type="email" placeholder="Your email // Votre adresse email" required size="40"
+                   ><br>
+
+            <input type="submit"
+                   value="Sign up for additional surveys // Inscrivez-vous pour des sondages supplémentaires ">
         </div>
     </form>
 </div>
-<footer>
 
+<footer>
+    <p> Website created by: // Site web concu par:<br>
+        Jonathan Boerger <br>
+        300098636<br>
+        SEG 3525 <br>
+        University of Ottawa
+    </p>
 </footer>
 
 </body>
