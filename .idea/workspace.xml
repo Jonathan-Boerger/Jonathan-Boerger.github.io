@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5bead541-88f3-495f-b3fa-53829c00b9db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SEG3525_mod1_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_mod1_survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seg3525_mod1.css" beforeDir="false" afterPath="$PROJECT_DIR$/seg3525_mod1.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SEG3525_mod1_survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+            <state relative-caret-position="651">
+              <caret line="175" column="87" lean-forward="true" selection-start-line="175" selection-start-column="87" selection-end-line="175" selection-end-column="87" />
               <folding>
                 <element signature="e#1661#1667#0" expanded="true" />
                 <element signature="e#2254#2260#0" expanded="true" />
@@ -58,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="110" selection-end-column="12" />
+            <state relative-caret-position="1049">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -160,12 +161,12 @@
       <updated>1588725838122</updated>
       <workItem from="1588725842452" duration="253000" />
       <workItem from="1588887605607" duration="7836000" />
-      <workItem from="1589894947660" duration="18497000" />
+      <workItem from="1589894947660" duration="20463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26586000" />
+    <option name="totallyTimeSpent" value="28552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -201,13 +202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -215,17 +209,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="110" selection-end-column="12" />
+        <state relative-caret-position="1049">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_mod1_survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+        <state relative-caret-position="651">
+          <caret line="175" column="87" lean-forward="true" selection-start-line="175" selection-start-column="87" selection-end-line="175" selection-end-column="87" />
           <folding>
             <element signature="e#1661#1667#0" expanded="true" />
             <element signature="e#2254#2260#0" expanded="true" />

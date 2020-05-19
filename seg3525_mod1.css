@@ -2,6 +2,10 @@ html{
     font-family: 'Lato', sans-serif;
     /*background-image: url("https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=486&q=80") ;*/
     /*background-size: cover;*/
+
+}
+
+body{
     background-color: #59595e;
 }
 h1 {
@@ -121,3 +125,12 @@ a {
 }
 
 p{margin-top: 0}
+
+.footerr{
+    background-color: rgba(0, 139, 139, 1);
+    text-align: center;
+    color: whitesmoke;
+    width: available;
+
+
+}
