@@ -6,13 +6,23 @@
 </head>
 <body>
 <header>
-<h1>User Interface Evaluation Survey</h1>
+    <nav>
+        <p>Language: English, Français </p>
+    </nav>
+<h1>User Interface Evaluation Survey - Sondage d'évaluation d’interface d’usagers  </h1>
 <!--    bar-->
 
 </header>
 <div id="UI_ele">
     <div>
-        <a href="http://cpgear.com/"> The user interface under evaluation</a>
+        <p>Please look at the following sample user interface (UI) and answer the questions
+            bellow. <br>
+            The original UI can be found <a href="http://cpgear.com/"> here</a>.<br>
+            SVP prenez compte de l’exemple de l’interface d’utilisateur (IU) et répondez aux
+            questions ci-dessous.<br>
+            Vous pouvez consulter l’IU originale <a
+                    href="http://cpgear.com/"> ici</a>
+            </p>
     </div>
     <a href="http://cpgear.com/"><img src="SEG3525-Mod1-Survey-UI-Capture.PNG"
                                       alt="CP Gear UI Image"></a>
@@ -22,21 +32,63 @@
         <div id="q1">
 <!--            What catches your eye initially. Input type text-->
             <label for="q1_answer">Please describe what initially caught your eye when
-                in the image above. || SVP decrivez l'element de l'image qui a initiallement
-                attire votre attention.
+                in the image above. // SVP décrivez l'élément de l'image qui a initialement
+                attirer votre attention.
             </label>
             <br>
-            <textarea id="q1_answer" placeholder="Please enter your answer here || SVP ecrivez votre reponse ici." rows="4" cols="50" required></textarea>
+            <textarea id="q1_answer"
+                      placeholder="Please enter your answer here. // SVP écrivez votre réponse ici." rows="4" cols="50" required></textarea>
 
         </div>
         <div id="q2">
 <!--            Have you previously accessed this website-->
+            <p>Have you previously accessed this website? // Avez-vous antérieurement accéder ce
+                site web?</p>
+            <input id="q2_answer_1" type="radio"  name="q2_a" value="Yes">
+            <label for="q2_answer_1">Yes // Oui</label><br>
+            <input id="q2_answer_2" type="radio" name="q2_a" value="No">
+            <label for="q2_answer_2">No &nbsp;// Non</label>
+
+        </div>
+        <div id="q2.5">
+
+            <p>Do you consider yourself part of the target audience of this website? // Considérez-vous inclue dans la population cibler par ce site web?</p>
+            <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes">
+            <label for="q2.5_answer_1">Yes // Oui</label><br>
+            <input id="q2.5_answer_2" type="radio" name="q2.5_a" value="No">
+            <label for="q2.5_answer_2">No &nbsp;// Non</label>
 
         </div>
         <div id="q3">
-
+            <p>This website is: // Ce site web est:  </p>
+            <input id="q3_answer_1" type="radio"  name="q3_a" value="Yes">
+            <label for="q3_answer_1">Visually pleasing // Attrayant</label><br>
+            <input id="q3_answer_2" type="radio" name="q3_a" value="No">
+            <label for="q3_answer_2"><strong>Not</strong> visually pleasing //
+                <strong>Peu</strong> attrayant</label>
         </div>
         <div id="q4">
+            <p> Please select the products which you believe that CP Gear sells. // SVP indiquer
+                les produits que vous supposez que CP Gear vend.
+            <br><span>You can select multiple options. // Vous pouvez sélectionner plusieurs
+                    réponse.</span></p>
+            <input type="checkbox" id="q4_a_1">
+            <label for="q4_a_1">Name tags //
+                Étiquettes de nom </label><br>
+            <input type="checkbox" id="q4_a_2">
+            <label for="q4_a_2">Patches // Patch </label><br>
+            <input type="checkbox" id="q4_a_3">
+            <label for="q4_a_3"> Outdoor Apparel // </label><br>
+            <input type="checkbox" id="q4_a_4">
+            <label for="q4_a_4"> Firearms //  </label><br>
+            <input type="checkbox" id="q4_a_5">
+            <label for="q4_a_5"> Tactical clothing //</label><br>
+            <input type="checkbox" id="q4_a_6">
+            <label for="q4_a_6"> Knives //</label><br>
+            <input type="checkbox" id="q4_a_7">
+            <label for="q4_a_7"> Bags &amp packs //</label><br>
+            <input type="checkbox" id="q4_a_8">
+            <label for="q4_a_8"> Stationary &amp witting supplies //</label><br>
 
         </div>
         <div id="q5">
