@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5bead541-88f3-495f-b3fa-53829c00b9db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SEG3525_mod1_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_mod1_survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seg3525_mod1.css" beforeDir="false" afterPath="$PROJECT_DIR$/seg3525_mod1.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SEG3525_mod1_survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="62" column="87" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+            <state relative-caret-position="650">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="e#1661#1667#0" expanded="true" />
                 <element signature="e#2254#2260#0" expanded="true" />
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+            <state relative-caret-position="797">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="110" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -93,8 +92,8 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/SEG3525_mod1_survey.html" />
         <option value="$PROJECT_DIR$/seg3525_mod1.css" />
+        <option value="$PROJECT_DIR$/SEG3525_mod1_survey.html" />
       </list>
     </option>
   </component>
@@ -161,12 +160,12 @@
       <updated>1588725838122</updated>
       <workItem from="1588725842452" duration="253000" />
       <workItem from="1588887605607" duration="7836000" />
-      <workItem from="1589894947660" duration="17971000" />
+      <workItem from="1589894947660" duration="18239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26060000" />
+    <option name="totallyTimeSpent" value="26328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -216,10 +215,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="110" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_mod1_survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="62" column="87" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+        <state relative-caret-position="650">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="e#1661#1667#0" expanded="true" />
             <element signature="e#2254#2260#0" expanded="true" />
@@ -233,13 +239,6 @@
             <element signature="e#4814#4820#0" expanded="true" />
             <element signature="e#6567#6573#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
         </state>
       </provider>
     </entry>
