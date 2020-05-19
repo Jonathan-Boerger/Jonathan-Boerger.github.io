@@ -3,75 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>SEG3525 Module 1-Survey</title>
+    <link type="text/css" rel="stylesheet" href="seg3525_mod1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <nav>
-        <p>Language: English, Français </p>
-    </nav>
-<h1>User Interface Evaluation Survey - Sondage d'évaluation d’interface d’usagers  </h1>
+
+<h1 class="line">User Interface Evaluation Survey - Sondage d'évaluation d’interface d’usagers
+</h1>
 <!--    bar-->
 
 </header>
-<div id="UI_ele">
-    <div>
-        <p>Please look at the following sample user interface (UI) and answer the questions
-            bellow. <br>
-            The original UI can be found <a href="http://cpgear.com/"> here</a>.<br>
+<div id="UI_ele" >
+    <div class="centered_text">
+        <p  class="center_box_grey"><br>
+            <span id="intro_block">
+            Please study at the following sample user
+            interface (UI) and answer the <a href="#questions"> questions</a> bellow. <br>
+
             SVP prenez compte de l’exemple de l’interface d’utilisateur (IU) et répondez aux
-            questions ci-dessous.<br>
-            Vous pouvez consulter l’IU originale <a
-                    href="http://cpgear.com/"> ici</a>
-            </p>
+            <a href="#questions"> questions</a> ci-dessous.<br><br></span>
+            The original UI can be found <a href="http://cpgear.com/">
+                here</a>.<br>Vous pouvez
+            consulter l’IU originale <a href="http://cpgear.com/"> ici</a><br><br>
+
+        </p>
     </div>
-    <a href="http://cpgear.com/"><img src="SEG3525-Mod1-Survey-UI-Capture.PNG"
+    <div id="picture">
+        <a href="http://cpgear.com/"><img class="centered_img" src="SEG3525-Mod1-Survey-UI-Capture.PNG"
                                       alt="CP Gear UI Image"></a>
+    </div>
 </div>
 <div id="questions">
+    <div>
+        <h2> Survey Questions // Questions de Sondage</h2>
+        <div class="line2"></div>
+    </div>
     <form>
-        <div id="q1">
+        <div id="q1" class="q_block">
 <!--            What catches your eye initially. Input type text-->
-            <label for="q1_answer">Please describe what initially caught your eye when
-                in the image above. // SVP décrivez l'élément de l'image qui a initialement
-                attirer votre attention.
-            </label>
-            <br>
-            <textarea id="q1_answer"
-                      placeholder="Please enter your answer here. // SVP écrivez votre réponse ici." rows="4" cols="50" required></textarea>
+            <div class="question">
+                <label for="q1_answer" >1.&emsp;  Please describe what initially
+                    caught your eye when in the image above. // SVP décrivez l'élément de l'image qui a initialement
+                    attirer votre attention.
+                </label>
+            </div>
+            <br><br>
+            <textarea id="q1_answer" class="answer txt_area_obj"
+                      placeholder="Please enter your answer here. // SVP écrivez votre réponse ici."  required></textarea>
 
         </div>
-        <div id="q2">
+        <div id="q2" class="q_block">
 <!--            Have you previously accessed this website-->
-            <p>Have you previously accessed this website? // Avez-vous antérieurement accéder ce
+            <p class="question">2.&emsp; Have you previously accessed this website? // Avez-vous antérieurement
+                accéder ce
                 site web?</p>
-            <input id="q2_answer_1" type="radio"  name="q2_a" value="Yes" required>
-            <label for="q2_answer_1">Yes // Oui</label><br>
-            <input id="q2_answer_2" type="radio" name="q2_a" value="No">
-            <label for="q2_answer_2">No &nbsp;// Non</label>
+            <div class="answer">
+                <input id="q2_answer_1" type="radio"  name="q2_a" value="Yes" required>
+                <label for="q2_answer_1">Yes // Oui</label><br>
+                <input id="q2_answer_2" type="radio" name="q2_a" value="No">
+                <label for="q2_answer_2">No &nbsp;// Non</label><br>
+                <div class="end_of_div"></div>
+            </div>
 
         </div>
-        <div id="q2.5">
+        <div id="q2.5" class="q_block">
 
-            <p>Do you consider yourself part of the target audience of this website? // Considérez-vous inclue dans la population cibler par ce site web?</p>
-            <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes" required>
-            <label for="q2.5_answer_1">Yes // Oui</label><br>
-            <input id="q2.5_answer_2" type="radio" name="q2.5_a" value="No">
-            <label for="q2.5_answer_2">No &nbsp;// Non</label>
+            <p class="question">3.&emsp; Do you consider yourself part of the target audience of
+                this website? // Considérez-vous inclue dans la population cibler par ce site web?</p>
+            <div class="answer">
+                <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes" required>
+                <label for="q2.5_answer_1">Yes // Oui</label><br>
+                <input id="q2.5_answer_2" type="radio" name="q2.5_a" value="No">
+                <label for="q2.5_answer_2">No &nbsp;// Non</label>
+                <div class="end_of_div"></div>
+            </div>
 
         </div>
-        <div id="q3">
-            <p>This website is: // Ce site web est:  </p>
-            <input id="q3_answer_1" type="radio"  name="q3_a" value="Yes" required>
-            <label for="q3_answer_1">Visually pleasing // Attrayant</label><br>
-            <input id="q3_answer_2" type="radio" name="q3_a" value="No">
-            <label for="q3_answer_2"><strong>Not</strong> visually pleasing //
-                <strong>Peu</strong> attrayant</label>
+        <div id="q3" class="q_block">
+            <p class="question">4.&emsp; This website is: // Ce site web est:  </p>
+            <div class="answer">
+                <input id="q3_answer_1" type="radio"  name="q3_a" value="Yes" required>
+                <label for="q3_answer_1">Visually pleasing // Attrayant</label><br>
+                <input id="q3_answer_2" type="radio" name="q3_a" value="No">
+                <label for="q3_answer_2"><strong>Not</strong> visually pleasing //
+                    <strong>Peu</strong> attrayant</label>
+                <div class="end_of_div"></div>
+            </div>
         </div>
         <div id="q4">
-            <p> Please select the products which you believe that CP Gear sells. // SVP indiquer
+
+            <p class="question">5.&emsp;  Please select the products which you believe that CP
+                Gear sells. // SVP indiquer
                 les produits que vous supposez que CP Gear vend.
-            <br><span>You can select multiple options. // Vous pouvez sélectionner plusieurs
-                    réponse.</span></p>
+            <br><span class="small_text">(You can select multiple options. // Vous pouvez
+                    sélectionner plusieurs réponse.)</span></p>
             <input type="checkbox" id="q4_a_1" >
             <label for="q4_a_1">Name tags //
                 Étiquettes de nom </label><br>
@@ -93,7 +119,8 @@
 
         </div>
         <div id="q5">
-            <p>To what extent does the UI encourage you to further explore the website? // De quelle mesure l’IU vous encourage à explorer davantage le site web? </p>
+            <p class="question">6.&emsp; To what extent does the UI encourage you to further
+                explore the website? // De quelle mesure l’IU vous encourage à explorer davantage le site web? </p>
             <table>
                 <tr>
                     <td>&nbsp;</td>
@@ -121,7 +148,8 @@
         </div>
         <div id="q6">
             <br>
-            <label for="q6_ans">Do you have any additional comments or feedback about the UI? //
+            <label for="q6_ans" class="question">7.&emsp; Do you have any additional comments or
+                feedback about the UI? //
                 Avez-vous
                 des
                 commentaire supplémentaire vis-à-vis l’IU? </label><br>
