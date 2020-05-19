@@ -55,8 +55,10 @@ img {
 }
 h2{
     margin-top: 2em;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     font-size: 2em;
+    border-bottom: 2px solid grey;
+    text-align: center;
 }
 
 a {
