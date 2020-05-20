@@ -44,7 +44,7 @@
             <div class="question">
                 <label for="q1_answer" ><span class="blue">1.</span>&emsp;  Please describe what
                     initially
-                    caught your eye when in the image above. <span class="blue">// </span>SVP
+                    caught your eye in the image above. <span class="blue">// </span>SVP
                     décrivez l'élément de l'image qui a initialement
                     attiré votre attention.
                 </label>
@@ -73,7 +73,7 @@
 
             <p class="question"><span class="blue">3.</span>&emsp; Do you consider yourself part
                 of the target audience of
-                this website? <span class="blue">//</span> Considérez-vous que vous faites parite
+                this website? <span class="blue">//</span> Considérez-vous que vous faites partie
                 de la population ciblée par ce site web?</p>
             <div class="answer">
                 <input id="q2.5_answer_1" type="radio"  name="q2.5_a" value="Yes" required>
@@ -104,24 +104,28 @@
                 les produits qui, selon-vous, sont vendus par CP Gear.
             <br><span class="small_text">(You can select multiple options. <span class="blue">//</span> Vous pouvez
                     sélectionner plusieurs réponses.)</span></p>
-            <input type="checkbox" id="q4_a_1" >
-            <label for="q4_a_1">Name tags <span class="blue">//</span>
-                Étiquettes de nom </label><br>
-            <input type="checkbox" id="q4_a_2">
-            <label for="q4_a_2">Patches <span class="blue">//</span> Patchs </label><br>
-            <input type="checkbox" id="q4_a_3">
-            <label for="q4_a_3"> Outdoor Apparel <span class="blue">//</span> Vêtements d'extérieur </label><br>
-            <input type="checkbox" id="q4_a_4">
-            <label for="q4_a_4"> Firearms <span class="blue">//</span>
-                Armes à feu   </label><br>
-            <input type="checkbox" id="q4_a_5">
-            <label for="q4_a_5"> Tactical clothing <span class="blue">//</span> Vêtements tactiques</label><br>
-            <input type="checkbox" id="q4_a_6">
-            <label for="q4_a_6"> Knives <span class="blue">//</span> Couteaux </label><br>
-            <input type="checkbox" id="q4_a_7">
-            <label for="q4_a_7"> Bags &amp packs <span class="blue">//</span> Sacs &amp sac à dos</label><br>
-            <input type="checkbox" id="q4_a_8">
-            <label for="q4_a_8"> Stationary &amp witting supplies <span class="blue">//</span> Articles de papeterie </label><br>
+
+            <div class="answer">
+                <input type="checkbox" id="q4_a_1" >
+                <label for="q4_a_1">Name tags <span class="blue">//</span>
+                    Étiquettes de nom </label><br>
+                <input type="checkbox" id="q4_a_2">
+                <label for="q4_a_2">Patches <span class="blue">//</span> Patchs </label><br>
+                <input type="checkbox" id="q4_a_3">
+                <label for="q4_a_3"> Outdoor Apparel <span class="blue">//</span> Vêtements d'extérieur </label><br>
+                <input type="checkbox" id="q4_a_4">
+                <label for="q4_a_4"> Firearms <span class="blue">//</span>
+                    Armes à feu   </label><br>
+                <input type="checkbox" id="q4_a_5">
+                <label for="q4_a_5"> Tactical clothing <span class="blue">//</span> Vêtements tactiques</label><br>
+                <input type="checkbox" id="q4_a_6">
+                <label for="q4_a_6"> Knives <span class="blue">//</span> Couteaux </label><br>
+                <input type="checkbox" id="q4_a_7">
+                <label for="q4_a_7"> Bags &amp packs <span class="blue">//</span> Sacs &amp sac à dos</label><br>
+                <input type="checkbox" id="q4_a_8">
+                <label for="q4_a_8"> Stationary &amp witting supplies <span class="blue">//</span> Articles de papeterie </label><br>
+            </div>
+            <div class="end_of_div"></div>
 
         </div>
         <div id="q5" class="q_block">
@@ -129,7 +133,7 @@
                 encourage you to further
                 explore the website? <span class="blue">//</span> Dans quelle mesure l’IU vous
                 encourage-t-il à explorer davantage le site web? </p>
-            <table>
+            <table class="answer">
                 <tr>
                     <td>&nbsp;</td>
                     <td class="blue"> <label for="q5_1">1</label> </td>
@@ -152,50 +156,66 @@
                 </tr>
 
             </table>
-
+            <div class="end_of_div"></div>
         </div>
         <div id="q6" class="q_block">
-            <br>
-            <label for="q6_ans" class="question"><span class="blue">7.</span>&emsp; Do you have
+
+            <div class="question">
+                <label for="q6_ans" ><span class="blue">7.</span>&emsp;
+                Do you have
                 any additional comments or
                 feedback about the UI? <span class="blue">//</span>
                 Avez-vous
                 des
-                commentaires supplémentaires à propos l’IU? </label><br>
+                commentaires supplémentaires à propos l’IU? </label>
+            </div>
+            <br><br>
 
-            <textarea id="q6_ans"
+            <textarea id="q6_ans" class="answer txt_area_obj"
                       placeholder="Write your comments here. // Écrivez vos commentaires ici." rows="4" cols="50"></textarea>
 
         </div>
-        <div><br>
-            <input type="submit">
+        <div class="q_block"><br>
+            <input type="submit" class="centered_img sub_btn">
+            <p class="question centered_text"> Thank you for having completed the survey! <span class="blue">
+                //</span>
+                Merci d'avoir
+            complété le
+                sondage!</p>
         </div>
     </form>
     <form>
-        <div>
-            <p> Thank you for having completed the survey! // Merci d'avoir complété le
-                sondage!</p>
-            <label for="email_add">Add your email if you are interested in completing
-            future surveys. // Fournissez votre adresse email si vous voulez compléter d’autres
-                sondages à l'avenir.</label>
-            <br>
-            <input type="email" placeholder="Your email // Votre adresse email" required size="40"
-                   ><br>
+        <div class="q_block">
+            <div class="question centered_text">
+                <label for="email_add">Add your email if you are interested in completing
+                future surveys. <span class="blue">//</span> Fournissez votre adresse email si vous voulez compléter d’autres
+                    sondages à l'avenir.</label>
 
-            <input type="submit"
-                   value="Sign up for additional surveys // Inscrivez-vous pour des sondages supplémentaires ">
+
+            </div>
+            <br><br>
+            <div>
+            <input id="email_add" type="email" placeholder="Your email // Votre adresse email" required
+                   class=" email_in"
+
+            ></div><br><br>
+
+            <button class="centered_img sub_btn_2">Sign up for additional surveys <br>
+                <br>Inscrivez-vous pour des sondages supplémentaires </button>
+            <br>
         </div>
     </form>
 </div>
-</body>
 <div class="footerr">
-    <p> Website created by: // Site web concu par:<br>
+    <p class="p_ft"> Website created by: <br><br>
         Jonathan Boerger <br>
         300098636<br>
         SEG 3525 <br>
         University of Ottawa
     </p>
 </div>
+</body>
+
 
 
 </html>
