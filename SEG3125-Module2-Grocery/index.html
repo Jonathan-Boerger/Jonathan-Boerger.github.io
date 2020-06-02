@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <! This style sheet is taken from https://www.w3schools.com/howto/howto_js_tabs.asp>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body onload="openInfo(event, 'Client');document.getElementById('tab1').className +=' active';">
+<div class="header">
+    <h1 class="Tile blue center_text"> SEG Foods Inc.</h1>
+</div>
+
+<!-- Tab links, each one with an onclick event associated with it -->
+<div class="store">
+    <div class="tab">
+        <button id="tab1" class="tablinks" onclick="openInfo(event, 'Client')">Client</button>
+        <button id=tab2 class="tablinks" onclick="openInfo(event, 'Products')">Products</button>
+        <button id=tab3 class="tablinks" onclick="openInfo(event, 'Cart')">Cart</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="Client" class="tabcontent">
+        <h3>Client Information</h3>
+        <!--    <h5>Tell us a bit about you.</h5>-->
+        <form id="consumer_info">
+            <p>Please select all dietary restriction which apply:</p>
+
+            <div class="options" class="diet_rest"
+                 onchange="populateListProductChoices('consumer_info', 'displayProduct')">
+                <input type=checkbox id="vegetarian" name="dietSelect" value="Veg">
+                <label for="vegetarian">Vegetarian</label><br>
+                <input type=checkbox id="gluten_free" name="dietSelect" value="Glut">
+                <label for="gluten_free">Gluten Free</label><br>
+            </div>
+            <p> Are you interested in organic products when available?</p>
+            <div class="options" onchange="populateListProductChoices('consumer_info', 'displayProduct')">
+                <input class="org" type="radio" id="organic" name="organic" value="Org">
+                <label for="organic">Yes</label><br>
+                <input type="radio" id="not_organic" name="organic" value="Non_Org" checked="checked">
+                <label for="not_organic">No</label><br>
+            </div>
+            <br>
+            <button id="start_shopping" type="button" class="store_btn"
+                    onclick="populateListProductChoicesWrapper('consumer_info', 'displayProduct')"> Start Shopping
+            </button>
+            <br>
+            <br>
+        </form>
+
+    </div>
+
+    <div id="Products" class="tabcontent">
+        <h3>Your Targeted Products</h3>
+        <p>We preselected products based on your restrictions.</p>
+        Choose items to buy:
+        <br>
+        <div onchange="selectedItems()">
+            <table id="displayProduct">
+
+            </table>
+        </div>
+        <br>
+        <button id="addCart" type="button" class="block store_btn"   onclick="select_items_wrapper()">
+            Add Selected Items to Cart
+        </button>
+        <br><br>
+
+    </div>
+
+    <div id="Cart" class="tabcontent">
+        <h3>Cart</h3>
+        <p>Here is your cart.</p>
+        <div id="displayCart"></div>
+        <br>
+        <button id="add_product" type="button" class="block store_btn"  onclick="back_to_cart()">
+            Go Back to Products List
+        </button>
+        <br><br>
+    </div>
+</div>
+
+
+<script src="scripts/groceries.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+<footer class="footerr">
+
+    <p class="p_ft"> Website created by: <br><br>
+        Jonathan Boerger <br>
+        300098636<br>
+        SEG 3525 <br>
+        University of Ottawa
+    </p>
+
+</footer>
+</html>
