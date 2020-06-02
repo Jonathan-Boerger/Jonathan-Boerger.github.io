@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bead541-88f3-495f-b3fa-53829c00b9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module2/grocery_design_decisions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/.idea/SEG3125-Module2-Grocery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/.idea/SEG3125-Module2-Grocery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/grocery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/scripts/groceries.js" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/scripts/groceries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEG3125-Module2-Grocery/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module2/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module2/scripts/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +53,7 @@
       <workItem from="1588887605607" duration="7836000" />
       <workItem from="1589894947660" duration="28829000" />
       <workItem from="1590097545379" duration="1741000" />
-      <workItem from="1591136396919" duration="1408000" />
+      <workItem from="1591136396919" duration="2147000" />
     </task>
     <servers />
   </component>

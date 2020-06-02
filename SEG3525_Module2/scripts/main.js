@@ -42,10 +42,10 @@ function populateListProductChoices(slct1, slct2) {
 
 
     var s1 = document.getElementById(slct1);
-    var s2 = document.getElementById(slct2);
+    var product_table = document.getElementById(slct2);
 	
 	// s2 represents the <div> in the Products tab, which shows the product list, so we first set it empty
-    s2.innerHTML = "";
+    product_table.innerHTML = "";
     var selected_diet_rest=[]
 	var diet_rest_elements=document.getElementsByName('dietSelect')
 	for (var j=0; j<diet_rest_elements.length; j++) {
@@ -73,7 +73,11 @@ function populateListProductChoices(slct1, slct2) {
 	// <input type="checkbox" name="product" value="Bread">
 	// <label for="Bread">Bread/label><br>
 
+	//Checkboxes are contained within a table to allow for unifrom spacing and style. Allow for organic items to be
+	// placed in the same table row as the base item and have all organic item checboxes line up vertically
+
 	for (i = 0; i < sorted_products.length; i++) {
+		// create table row  and table data element for the product
 		var tr=document.createElement('tr')
 		var td=document.createElement("td")
 		var product = sorted_products[i];
@@ -84,13 +88,15 @@ function populateListProductChoices(slct1, slct2) {
 		checkbox.value = product.name;
 		td.appendChild(checkbox);
 		
-		// create a label for the checkbox, and also add in HTML DOM
+		// create a label for the checkbox, and also add in HTML DOM and
 		var label = document.createElement('label')
 		label.htmlFor = product;
 		label.appendChild(document.createTextNode(product.name + "    [Price: $"+product.price+"/"+product.unit+"]"));
 		td.appendChild(label);
 		tr.appendChild(td);
 
+		// if the client has requested organic products and the product has an organic version create second td element
+		// and make the corresponding checkbox and label
 		if ((s1.querySelector('.org').checked) && product.organic){
 			// s2.appendChild("&nbsp")
 			var td_org=document.createElement("td")
@@ -104,14 +110,14 @@ function populateListProductChoices(slct1, slct2) {
 			label_org.appendChild(document.createTextNode("Organic - [Price: $"+product.organic_price+"/"+product.unit+"]"));
 			td_org.appendChild(label_org);
 			tr.appendChild(td_org)
-
+		// even if there is no organic version, still make a second td element to have a unifrom look to the table
 		}else if (s1.querySelector('.org').checked){
 			tr.appendChild(document.createElement("td"))
 		}
 
 		
-		// create a breakline node and add in HTML DOM
-		s2.appendChild(tr);
+		// adding the table row to the table
+		product_table.appendChild(tr);
 	}
 }
 	
@@ -119,6 +125,7 @@ function populateListProductChoices(slct1, slct2) {
 // The purpose is to build the HTML to be displayed (a Paragraph) 
 // We build a paragraph to contain the list of selected items, and the total price
 function select_items_wrapper(){
+	// Wrapper method that changes the tab to cart when the button is pressed
 	openInfo(event, 'Cart')
 	document.getElementById('tab3').className +=" active";
 	selectedItems()
@@ -137,10 +144,13 @@ function selectedItems(){
 	var para = document.createElement("P");
 	para.innerHTML = "You selected : ";
 	para.appendChild(document.createElement("br"));
+
+	// listing all the items are an unordered list
 	var item_list=document.createElement('ul')
 
 	for (i = 0; i < ele.length; i++) { 
 		if (ele[i].checked) {
+			// creating the li elementes for each product selected
 			var li_item=document.createElement('li')
 			li_item.innerText=ele[i].value;
 			item_list.appendChild(li_item)
@@ -157,6 +167,7 @@ function selectedItems(){
 
 function sort_porduct_price(value_a, value_b){
 	//Adapted from https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/
+	// Sorting the product items by price (does not consider the price of organic items)
 	const price_1 = value_a.price;
 	const price_2 = value_b.price;
 
@@ -170,6 +181,8 @@ function sort_porduct_price(value_a, value_b){
 }
 
 function back_to_cart(){
+	// method to switch the tabs to the products list when the button is pressed
+
 	openInfo(event, 'Products')
 	document.getElementById('tab2').className +=" active";
 }

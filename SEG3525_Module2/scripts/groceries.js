@@ -135,6 +135,7 @@ function restrictListProducts(prods, restriction) {
 	// }
 
 	for (let i=0; i<prods.length; i+=1) {
+		// if a product does not meet the required restrictions then it is not added to th eproduct list
 		if ((restriction.includes('Veg')) && (prods[i].vegetarian == false)){
 			continue;}
 		else if ((restriction.includes('Glut')) && (prods[i].glutenFree == false)){
@@ -155,9 +156,11 @@ function getTotalPrice(chosenProducts) {
 	for (let i = 0; i < products.length; i += 1) {
 		if (chosenProducts.indexOf(products[i].name) > -1) {
 			totalPrice += products[i].price;
+		// check for organic products
 		}if (chosenProducts.indexOf('Organic ' + products[i].name) > -1) {
 			totalPrice += products[i].organic_price;
 		}
 	}
+	// rounding to two decimal places
 	return totalPrice.toFixed(2);
 }
