@@ -138,6 +138,7 @@ tr:nth-child(even) {
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: 1.2em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -170,7 +171,7 @@ tr:nth-child(even) {
 /* Style the sidebar - fixed full height */
 .sidebar {
   height: 100%;
-  width: 180px;
+  width: 157px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -184,7 +185,7 @@ tr:nth-child(even) {
 
 /* Style the main content */
 .main {
-  margin-left: 180px; /* Same as the width of the sidenav */
+  margin-left: 157px; /* Same as the width of the sidenav */
   padding: 0px 10px;
   /*position: relative;*/
   top: 40%;
