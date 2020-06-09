@@ -196,14 +196,7 @@ tr:nth-child(even) {
   .sidebar a {font-size: 18px;}
 }
 
-.vertical-adjust {
-  /*margin: 0;*/
-  position: absolute;
-  top: 5%;
-  transform: translateY(-5%);
 
-  width: 100%;
-}
 
 .side_bar_button{
   width: 155px;
@@ -233,7 +226,7 @@ tr:nth-child(even) {
   background-color: rgba(0, 161, 161, 0.75);
 
 }
-
+/*End adapted code*/
 .footerr{
   background-color: rgb(0, 161, 161);
   text-align: center;
@@ -250,31 +243,15 @@ tr:nth-child(even) {
   width: 100%;
   z-index: 5;
 }
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-.dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
 
+.vertical-adjust {
+  /*margin: 0;*/
+  position: absolute;
+  top: 5%;
+  transform: translateY(-5%);
 
+  width: 100%;
+}
 /*Adapted from W3 Schools at https://www.w3schools.com/howto/howto_css_switch.asp */
 /* The switch - the box around the slider */
 .switch {
@@ -343,7 +320,7 @@ input:checked + .slider:before {
   margin-left: 8px ;
   font-size: 1.2em;
 }
-
+/*End adapted code*/
 .cart_product_box{
   background-color: rgba(68, 68, 68, 0.35);
   padding: 10px;

@@ -15,7 +15,7 @@
     <h1 class="Tile blue center_text"> Mk-II SEG Foods Inc. </h1>
 </div>
 
-
+<!--Adapted code from W3 Schools at https://www.w3schools.com/howto/howto_css_sidebar_icons.asp-->
 <div class="sidebar ">
     <div class="vertical-adjust">
         <button id="nav_bar_client" class="side_bar_button"
@@ -31,20 +31,21 @@
     </div>
 
 </div>
+<!--End adapted code-->
 
 <div class="store  main  ">
 
 
-    <!-- Tab content -->
+
     <div id="Client" class="tabcontent">
         <h3>Client Preferences</h3>
-        <!--    <h5>Tell us a bit about you.</h5>-->
+
         <form id="consumer_info">
             <p>Please select all applicable dietary restriction &amp; preferences:</p>
 
             <div class="options diet_rest"
                  onchange="populateListProductChoices('consumer_info')">
-
+<!--                Adapted code form https://www.w3schools.com/howto/howto_css_switch.asp-->
 
                 <label class="switch">
                     <input type="checkbox" id="vegetarian" name="dietSelect" value="Veg">
@@ -66,16 +67,9 @@
 
                 </label> <span class="toggle_label"> Interested in Organic Products</span><br><br>
 
-<!--                <label for="vegetarian">Vegetarian</label><br>-->
-<!--                <label for="gluten_free">Celiac / Gluten Intolerant</label><br>-->
+<!--            End adapted code-->
             </div>
-<!--            <p> Are you interested in organic products when available?</p>-->
-<!--            <div class="options" onchange="populateListProductChoices('consumer_info', 'displayProduct')">-->
-<!--                <input class="org" type="radio" id="organic" name="organic" value="Org">-->
-<!--                <label for="organic">Yes</label><br>-->
-<!--                <input type="radio" id="not_organic" name="organic" value="Non_Org" checked="checked">-->
-<!--                <label for="not_organic">No</label><br>-->
-<!--            </div>-->
+
             <br>
             <button id="start_shopping" type="button" class="store_btn"
                     onclick="populateListProductChoicesWrapper('consumer_info')"> Start Shopping
@@ -116,6 +110,7 @@
                 <table id="other_products">
                 </table>
             </div>
+<!--            End adapted code-->
         </div>
         <br>
         <button id="addCart" type="button" class="block store_btn"   onclick="select_items_wrapper()">
@@ -128,7 +123,7 @@
     <div id="Cart" class="tabcontent">
         <h3>Cart</h3>
         <div class="cart_product_box">
-            <!--        <p>Here are your selected items.</p>-->
+            
             <button id="see_cart_items" type="button" class="block cart_btn"
                     onclick="show_cart_items()" value="">Show Cart Items
 

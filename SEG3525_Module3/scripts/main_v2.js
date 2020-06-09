@@ -286,3 +286,4 @@ function show_cart_items() {
 	}
 }
 
+// end adapted code

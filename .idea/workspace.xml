@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bead541-88f3-495f-b3fa-53829c00b9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module3/grocery_design_decisions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module3/scripts/groceries_v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+            <state relative-caret-position="168">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="e#1628#1633#0" expanded="true" />
                 <element signature="e#4635#4641#1" expanded="true" />
@@ -33,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="253" column="62" selection-start-line="253" selection-start-column="62" selection-end-line="253" selection-end-column="62" />
+            <state relative-caret-position="5649">
+              <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -54,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3839">
-              <caret line="340" lean-forward="true" selection-start-line="340" selection-end-line="340" />
+            <state relative-caret-position="4200">
+              <caret line="241" column="12" lean-forward="true" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -83,9 +80,9 @@
       <list>
         <option value="$PROJECT_DIR$/SEG3525_Module3/scripts/groceries_v2.js" />
         <option value="$PROJECT_DIR$/SEG3525_Module2/grocery.html" />
-        <option value="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" />
         <option value="$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css" />
         <option value="$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js" />
+        <option value="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" />
       </list>
     </option>
   </component>
@@ -177,12 +174,12 @@
       <workItem from="1590097545379" duration="1741000" />
       <workItem from="1591136396919" duration="2147000" />
       <workItem from="1591627832834" duration="10077000" />
-      <workItem from="1591651642084" duration="13853000" />
+      <workItem from="1591651642084" duration="14194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23930000" />
+    <option name="totallyTimeSpent" value="24271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -260,24 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
-          <folding>
-            <element signature="e#1628#1633#0" expanded="true" />
-            <element signature="e#4635#4641#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3839">
-          <caret line="340" lean-forward="true" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module3/scripts/groceries_v2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1281">
@@ -285,10 +264,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="241" column="12" lean-forward="true" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module3/scripts/main_v2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="253" column="62" selection-start-line="253" selection-start-column="62" selection-end-line="253" selection-end-column="62" />
+        <state relative-caret-position="5649">
+          <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#1628#1633#0" expanded="true" />
+            <element signature="e#4635#4641#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
