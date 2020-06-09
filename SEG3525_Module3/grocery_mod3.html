@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SEG3525 Module 2-Grocery</title>
+    <! This style sheet is taken from https://www.w3schools.com/howto/howto_js_tabs.asp>
+    <link href="styles/style_v2.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="openInfo(event, 'Client');document.getElementById('nav_bar_client').className
++=' active'; populateListProductChoices('consumer_info');selectedItems();show_cart_items()">
+<div class="header">
+    <h1 class="Tile blue center_text"> Mk-II SEG Foods Inc. </h1>
+</div>
+
+
+<div class="sidebar ">
+    <div class="vertical-adjust">
+        <button id="nav_bar_client" class="side_bar_button"
+                onclick="openInfo(event, 'Client')"><i
+                class="fa fa-fw fa-user"></i> Client
+        </button>
+        <button id="nav_bar_products" class="side_bar_button"
+                onclick="openInfo(event, 'Products')"><i
+                class="fa fa-fw fa-barcode"></i> Products</button>
+        <button id="nav_bar_cart" class="side_bar_button" onclick="openInfo(event, 'Cart')"><i
+                class="fa fa-fw fa-shopping-cart"></i> Cart</button>
+
+    </div>
+
+</div>
+
+<div class="store  main  ">
+
+
+    <!-- Tab content -->
+    <div id="Client" class="tabcontent">
+        <h3>Client Preferences</h3>
+        <!--    <h5>Tell us a bit about you.</h5>-->
+        <form id="consumer_info">
+            <p>Please select all applicable dietary restriction &amp; preferences:</p>
+
+            <div class="options diet_rest"
+                 onchange="populateListProductChoices('consumer_info')">
+
+
+                <label class="switch">
+                    <input type="checkbox" id="vegetarian" name="dietSelect" value="Veg">
+                    <span class="slider round"></span>
+
+                </label> <span class="toggle_label"> Vegetarian</span><br><br>
+
+
+
+
+                <label class="switch">
+                    <input type="checkbox"  id="gluten_free" name="dietSelect" value="Glut">
+                    <span class="slider round"></span>
+                </label><span class="toggle_label">Celiac / Gluten Intolerant</span><br><br>
+
+                <label class="switch">
+                    <input type="checkbox" class="org"  id="organic" name="organic" value="Org">
+                    <span class="slider round"></span>
+
+                </label> <span class="toggle_label"> Interested in Organic Products</span><br><br>
+
+<!--                <label for="vegetarian">Vegetarian</label><br>-->
+<!--                <label for="gluten_free">Celiac / Gluten Intolerant</label><br>-->
+            </div>
+<!--            <p> Are you interested in organic products when available?</p>-->
+<!--            <div class="options" onchange="populateListProductChoices('consumer_info', 'displayProduct')">-->
+<!--                <input class="org" type="radio" id="organic" name="organic" value="Org">-->
+<!--                <label for="organic">Yes</label><br>-->
+<!--                <input type="radio" id="not_organic" name="organic" value="Non_Org" checked="checked">-->
+<!--                <label for="not_organic">No</label><br>-->
+<!--            </div>-->
+            <br>
+            <button id="start_shopping" type="button" class="store_btn"
+                    onclick="populateListProductChoicesWrapper('consumer_info')"> Start Shopping
+            </button>
+            <br>
+            <br>
+        </form>
+
+    </div>
+
+    <div id="Products" class="tabcontent">
+        <h3>Personalized Products</h3>
+        <p>We filtered out products based on your preferences.</p>
+        <p>The items are sorted into categories. Click on a category to see the relevant
+            products.</p>
+
+        <!-- Accordion code adapted from W3 School at https://www.w3schools.com/howto/howto_js_accordion.asp     -->
+        <div onchange="selectedItems()">
+            <button class="accordion">Fruits & Vegatbales</button>
+            <div class="panel">
+                <table id="fruit_veg_products">
+                </table>
+            </div>
+
+            <button class="accordion">Grains</button>
+            <div class="panel">
+                <table id="grain_products">
+                </table>
+            </div>
+
+            <button class="accordion">Meats & Fish</button>
+            <div class="panel">
+                <table id="meat_products">
+                </table>
+            </div>
+            <button class="accordion">Other</button>
+            <div class="panel">
+                <table id="other_products">
+                </table>
+            </div>
+        </div>
+        <br>
+        <button id="addCart" type="button" class="block store_btn"   onclick="select_items_wrapper()">
+            Add Selected Items to Cart
+        </button>
+        <br><br>
+
+    </div>
+
+    <div id="Cart" class="tabcontent">
+        <h3>Cart</h3>
+        <div class="cart_product_box">
+            <!--        <p>Here are your selected items.</p>-->
+            <button id="see_cart_items" type="button" class="block cart_btn"
+                    onclick="show_cart_items()" value="">Show Cart Items
+
+            </button>
+            <div id="cart_items"></div>
+        </div>
+        <br>
+        <div id="displayCart"></div>
+        <br>
+        <button id="add_product" type="button" class="block store_btn"  onclick="back_to_cart()">
+            Add More Products
+        </button>
+        <br><br>
+    </div>
+</div>
+<div class="placeholder">&nbsp;</div>
+
+
+<script src="scripts/groceries_v2.js"></script>
+<script src="scripts/main_v2.js"></script>
+<footer class="footerr">
+
+    <p class="p_ft"> Website created by: <br><br>
+        Jonathan Boerger <br>
+        300098636<br>
+        SEG 3525 <br>
+        University of Ottawa
+    </p>
+
+</footer>
+</body>
+
+</html>
