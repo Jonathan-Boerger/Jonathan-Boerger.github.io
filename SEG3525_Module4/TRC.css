@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+.full-height{
+    height: 100%;
+    width: 100%;
+}
+
+#home_background_photo{
+
+}
+.bg-mountain-bike{
+    background-image: url("https://images.unsplash.com/photo-1572111504021-40abd3479ddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+
+}
+
+#down_arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+     /* half the element's width */
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -25px; /* half the element's width */
+    text-decoration: none;
+    color: orangered;
+}
