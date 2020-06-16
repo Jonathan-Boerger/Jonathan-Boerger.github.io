@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 .full-height{
@@ -153,4 +154,14 @@ html, body {
 
 .active{
     opacity: 1;
+}
+
+.c-us{
+    text-decoration: none;
+    color: white;
+}
+
+.c-us:hover{
+    color: orangered;
+    text-decoration: none;
 }

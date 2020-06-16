@@ -23,8 +23,8 @@
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
         <a class="navbar-brand" href="#home">Tofino Riding Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+                data-target="#collapsibleNavbar" style="background-color: orangered">
+            <span class="navbar-toggler-icon" style="color: orangered"> </span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
@@ -48,11 +48,12 @@
 <div id="home" class="container-fluid mt-5  full-height bg-mountain-bike"
      style="min-height: 100%;height: 100%;width: 100%">
     <div class="mt-5" style="height: 20%">&nbsp;</div>
-    <div class="mx-auto mb-5 display-2 text-white text-center font-weight-bold d-none d-sm-block">
+    <div
+            class="mx-auto mb-5 display-2 text-white text-center font-weight-bold d-none d-sm-block pt-5 mt-5">
         Tofino
         Riding Company
     </div>
-    <div class="mx-auto mb-5 display-3 text-white text-center font-weight-bold d-sm-none">
+    <div class="mx-auto mb-5 display-3 text-white text-center font-weight-bold d-sm-none ">
         Tofino
         Riding Company
     </div>
@@ -73,13 +74,31 @@
 
 
 </div>
-<div id="about" class="container-fluid full-height bg-light section-top-buffer background-beach">
+<div id="about" class="container-fluid  bg-light section-top-buffer background-beach"
+     style="min-height: 80%">
     <div class="d-flex flex-row  p-3 jumbotron">
         <div class="display-3 justify-content-start w-100  "
              style="color: #005e80">About
             Us
         </div>
     </div>
+    <div class="container-fluid jumbotron mx-auto mt-5 p-3 " style="width: 80%; font-size: 1.5rem" >
+        <div class="d-flex flex-column m-1">
+
+            <div> Tofino Biking Company was first started in 2015 to bring a bike focused
+                experience to the Tofino area.
+            </div>
+            <div> We specialize in mountain and off-road biking products and services including
+                rentals, <a href="#services" class="c-us" style="color: orangered"> repairs</a>,
+                and kit shop.
+            </div>
+
+        </div>
+
+    </div>
+    <div class="" style="height: 20%">&nbsp;</div>
+    <div class="" style="height: 20%">&nbsp;</div>
+    <div class="" style="height: 20%">&nbsp;</div>
 </div>
 <div id="services" class="container-fluid bg-light section-top-buffer background-ocean ">
     <div class="d-flex flex-row  p-3 justify-content-end jumbotron">
@@ -276,16 +295,18 @@
                  style="width:100%;height:100%;" class="shadow-lg p-2  bg-white full-height">&nbsp;
             </div>
         </div>
-        <div class="col-sm-4 jumbotron p-3 m-4" style="height: 500px;">
+        <div class="col-sm-4 jumbotron p-2 m-4" style="height: 500px;">
             <div class="d-flex flex-column " style="height: 100%">
                 <div
                         class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
                     <div class="p-2"><i
                             class="fas fa-map-marked-alt fa-3x"
                             style="color: orangered"></i></div>
-                    <div>Tofino Riding Company <br>
+                    <div><a href="https://www.google.ca/maps/@49.1522785,-125.9065182,17.25z"
+                            target="_blank"
+                            class="c-us"> Tofino Riding Company <br>
                         380-350 Campbell Street <br>
-                        Tofino, BC
+                        Tofino, BC </a>
                     </div>
 
 
@@ -304,7 +325,10 @@
                     <div class="p-2"><i
                             class="fas fa-at fa-3x"
                             style="color: orangered"></i></div>
-                    <div>tofino.riding@trc.ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div><a href="mailto:tofino.riding@trc.ca" target="_blank" class="c-us">
+                        tofino.riding@trc.ca</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;
+                    </div>
 
 
                 </div>
@@ -333,106 +357,125 @@
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAexSzqpsVur2eGabrDPgR4g_WgZRiD2Ek&callback=myMap"></script>
+    <div class="" style="height: 20%">&nbsp;</div>
+    <div class="" style="height: 20%">&nbsp;</div>
+    <div class="" style="height: 20%">&nbsp;</div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Bike Repair Service Scheduling Tool</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <br>
 
 
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
+            </div>
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Bike Repair Service Scheduling Tool</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <br>
+            <!-- Modal body -->
+            <div class="modal-body m-2">
+                <form>
+                    <div class="form-group row">
+                        <label for="repair_selection">Select Repair Type:</label>
+                        <select class="form-control" id="repair_selection">
+                            <option>Pedal Replacement</option>
+                            <option>Tune Up</option>
+                            <option>Tire Replacement</option>
+                            <option>Derailleur Repair</option>
+                            <option>Crank Balancing</option>
+                            <option>Brake Repair</option>
+                            <option>Unsure of Required Service</option>
+                            <option>Other</option>
+                        </select>
 
-
-
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body m-2">
-                    <form>
-                        <div class="form-group row">
-                            <label for="repair_selection">Select Repair Type:</label>
-                            <select class="form-control" id="repair_selection">
-                                <option>Pedal Replacement</option>
-                                <option>Tune Up</option>
-                                <option>Tire Replacement</option>
-                                <option>Derailleur Repair</option>
-                                <option>Crank Balancing</option>
-                                <option>Brake Repair</option>
-                                <option>Unsure of Required Service</option>
-                                <option>Other</option>
-                            </select>
-
-                        </div>
-                        <div class="form-group row">
-                            <label for="date-selection">Select Repair Date:</label>
-                            <input class="form-control" type="date"
-                                   value="2020-06-16" id="date-selection" min="2020-06-16">
-                        </div>
-                        <div class="form-group row">
-                            <label for="time-selection">Select Repair Time:</label>
-                            <input class="form-control" type="time"
-                                   value="09:00" id="time-selection" min="09:00" max="17:00"
-                                   step="900">
-                        </div>
-                        <div class="form-group row">
-                            <label for="name">Name (First &amp; Last):</label>
-                            <input class="form-control" type="text"
-                                   placeholder="Name" id="name">
-                        </div>
-                        <div class="form-group row">
-                            <label for="phone">Phone Number:</label>
-                            <input class="form-control" type="tel"
-                                   placeholder="(250) 555-9555" id="phone">
-                        </div>
-                        <div class="form-group row">
-                            <label for="email">Email Adress:</label>
-                            <input class="form-control" type="email"
-                                   placeholder="repair@trc.ca" id="email">
-                        </div>
-                        <div class="  m-0 form-group row" >
+                    </div>
+                    <div class="form-group row">
+                        <label for="date-selection">Select Repair Date:</label>
+                        <input class="form-control" type="date"
+                               value="2020-06-16" id="date-selection" min="2020-06-16">
+                    </div>
+                    <div class="form-group row">
+                        <label for="time-selection">Select Repair Time:</label>
+                        <input class="form-control" type="time"
+                               value="09:00" id="time-selection" min="09:00" max="17:00"
+                               step="900">
+                    </div>
+                    <div class="form-group row">
+                        <label for="name">Name (First &amp; Last):</label>
+                        <input class="form-control" type="text"
+                               placeholder="Name" id="name">
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone">Phone Number:</label>
+                        <input class="form-control" type="tel"
+                               placeholder="(250) 555-9555" id="phone">
+                    </div>
+                    <div class="form-group row">
+                        <label for="email">Email Adress:</label>
+                        <input class="form-control" type="email"
+                               placeholder="repair@trc.ca" id="email">
+                    </div>
+                    <div class="  m-0 form-group row">
                         <button type="button" class="btn btn-block btn-orange text-white"
                                 onclick="success_alert_view()"
                         ><h5>Book Repair</h5>
                         </button>
-                            <div id="success_alert"
-                                    class="alert alert-success alert-dismissible fade text-center  show mt-3"
-                                 style="width: 100% ; opacity: 0;">
-                                <button type="button" onclick="hide_alert()" class="close" >&times;
-                                </button>
-                                <strong>Success!</strong> Your repair appointment has been
-                                scheduled.
-                            </div>
+                        <div id="success_alert"
+                             class="alert alert-success alert-dismissible fade text-center  show mt-3"
+                             style="width: 100% ; opacity: 0;">
+                            <button type="button" onclick="hide_alert()" class="close">&times;
+                            </button>
+                            <strong>Success!</strong> Your repair appointment has been
+                            scheduled.
                         </div>
+                    </div>
 
 
-                    </form>
-                </div>
+                </form>
+            </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-
-                </div>
-
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" onclick="hide_alert()" class="btn btn-danger"
+                        data-dismiss="modal">Close
+                </button>
 
             </div>
+
+
         </div>
     </div>
+</div>
 
 
 </body>
+<footer style="width: 100%">
+    <div class="d-flex flex-inline  bg-dark p-2 text-center justify-content-around"
+         style="width: 100%">
+
+        <div class="text-white col-sm-4"> <span class="text-info"> Site Created by: </span><br>
+            Jonathan
+            Boerger
+            <br>
+            University of
+            Ottawa
+            <br> SEG 3525 </div>
+        <div class="text-white col-sm-4"> <span class="text-info"> Disclaimer: </span><br>
+            Tofino Riding Company is not a real buisness</div>
+    </div>
+</footer>
 </html>
 
 <script>
-    function success_alert_view(){
-        document.getElementById('success_alert').setAttribute('style','width: 100%; opacity: 1;')
+    function success_alert_view() {
+        document.getElementById('success_alert').setAttribute('style', 'width: 100%; opacity: 1;')
     }
 
-    function hide_alert(){
-        document.getElementById('success_alert').setAttribute('style','width: 100%; opacity: 0;')
+    function hide_alert() {
+        document.getElementById('success_alert').setAttribute('style', 'width: 100%; opacity: 0;')
     }
 </script>
