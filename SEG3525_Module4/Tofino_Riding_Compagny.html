@@ -13,14 +13,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
           crossorigin="anonymous">
-    <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
-    </style>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
+
 <div id="header" class="mb-3">
     <!--        Navbar code adapter from W3 Schools at https://www.w3schools.com/bootstrap4/tryit
     .asp?filename=trybs_navbar_collapse -->
@@ -36,13 +32,13 @@
                     <a class="nav-link" href="#about">Our Story</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#services">Repair Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#technicians">Technicians</a>
+                    <a class="nav-link" href="#technicians">Our Technicians</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#location">Contact Us</a>
+                    <a class="nav-link" href="#location">Visit Us</a>
                 </li>
             </ul>
         </div>
@@ -71,7 +67,7 @@
 
 
 </div>
-<div id="about" class="container-fluid full-height bg-light  ">
+<div id="about" class="container-fluid full-height bg-light section-top-buffer background-beach">
     <div class="d-flex flex-row  p-3 jumbotron">
         <div class="display-3 justify-content-start w-100  "
              style="color: #005e80">About
@@ -79,49 +75,200 @@
         </div>
     </div>
 </div>
-<div id="services" class="container-fluid full-height bg-light  ">
+<div id="services" class="container-fluid bg-light section-top-buffer background-ocean ">
     <div class="d-flex flex-row  p-3 justify-content-end jumbotron">
         <div class="display-3 justify-content-end w-100 "
-             style="color: orangered "><span class="d-flex justify-content-end">Repairs</span>
+             style="color: #005e80 "><span class="d-flex justify-content-end">Repairs</span>
         </div>
     </div>
-    <div class="container mx-auto">
+    <div class="container mx-auto jumbotron">
+        <!--        All pictures source from https://www.bikeparts.com/categories/bike-parts-components/-->
         <div class="card-columns mx-auto">
-            <div class="card bg-primary mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the first card</p>
+
+            <div class="card mx-auto">
+                <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
+                     src='https://www.bikeparts.com/cms/tiles/lg/tile293.jpg' alt="Bike pedal">
+                <div class="card-image-middle text-white  bg-blue-light ">
+                    <p class="card-image-middle-text">This repair service removes/installs bike
+                        pedals. Cost of new pedals are not included.
+                    </p>
+                </div>
+                <div class="card-body text-center bg-dark text-white">
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Pedal Installation</h4></a>
+                    <h5 class="card-text text-white">4.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
-            <div class="card bg-warning mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the second card</p>
+            <div class="card  mx-auto ">
+                <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
+                     src='https://www.bikeparts.com/cms/tiles/lg/tile55.jpg' alt="Tune up">
+                <div class="card-image-middle text-white  bg-blue-light ">
+                    <p class="card-image-middle-text">The tune up checks the following areas on
+                        your bike: chain, brakes, wheels, cables, headset, pedals; and
+                        shifters. <br>If minor issues are encountered an attempt will be made to
+                        rectify it.
+                    </p>
+                </div>
+                <div class="card-body text-center bg-dark text-white">
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Tune Up</h4></a>
+                    <h5 class="card-text ">104.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
-            <div class="card bg-success mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the third card</p>
+            <div class="card mx-auto ">
+                <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
+                     src='https://www.bikeparts.com/cms/tiles/lg/tile194.jpg' alt="Bike wheels">
+                <div class="card-image-middle text-white  bg-blue-light ">
+                    <p class="card-image-middle-text">This repair services replaces/repairs the
+                        tire, tubes and spokes of the wheels on your bikes. Cost of new/replacement
+                        parts are not included.
+                    </p>
+                </div>
+                <div class="card-body text-center bg-dark text-white">
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Tire Replacement</h4></a>
+
+                    <h5 class="card-text ">14.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
-            <div class="card bg-danger mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the fourth card</p>
+            <div class="card mx-auto ">
+                <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
+                     src="https://www.bikeparts.com/cms/tiles/lg/tile68.jpg" alt="Wheel crank">
+                <div class="card-image-middle text-white  bg-blue-light ">
+                    <p class="card-image-middle-text">This repair services balances the
+                        drive-train mechanism, with particular focus to the crank & cogs, to enable
+                        maximum efficiency.
+                    </p>
+                </div>
+                <div class="card-body text-center bg-dark text-white">
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Crank Balancing</h4></a>
+                    <h5 class="card-text ">59.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
-            <div class="card bg-primary mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the first card</p>
+            <div class="card  mx-auto ">
+                <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
+                     src='https://www.bikeparts.com/cms/tiles/lg/tile19.jpg' alt="Bike derailleur">
+                <div
+                        class="card-image-middle text-white  bg-blue-light ">
+                    <p
+                            class="card-image-middle-text">This repair services replaces/repairs the
+                        front and rear derailleur on your bike. Cost of new derailleurs is not
+                        included. </p>
+
+                </div>
+                <div class="card-body text-center bg-dark text-white">
+
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Derailleur Repair</h4></a>
+                    <h5 class="card-text ">69.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
-            <div class="card bg-warning mx-auto">
-                <div class="card-body text-center">
-                    <p class="card-text">Some text inside the second card</p>
+            <div class="card  mx-auto ">
+                <img class="card-image-top service_imgae bg-info border border-info border-bottom-0"
+                     src="https://www.bikeparts.com/cms/tiles/lg/tile29.jpg" alt="Bike brakes">
+                <div class="card-image-middle text-white  bg-blue-light ">
+                    <p class="card-image-middle-text">This repair services replaces/repairs the
+                        front and rear brake pads and connecting brake cables. Cost of new
+                        brakes, brake pads, or cables are not included.
+                    </p>
+                </div>
+
+                <div class="card-body text-center bg-dark text-white">
+                    <a data-toggle="modal" data-target="#myModal"
+                       style="text-decoration: none; color: orangered; cursor: pointer;"><h4
+                            class="card-title">Brake
+                        Repair</h4></a>
+                    <h5 class="card-text ">89.99$
+                        <small> excl. taxes</small>
+                    </h5>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="" style="height: 20%">&nbsp;</div>
+</div>
+<div id="technicians" class="container-fluid full-height section-top-buffer background-ocean-2 ">
+    <div class="d-flex flex-row  p-3 jumbotron">
+        <div class="display-3 justify-content-start w-100  "
+             style="color: #005e80"> Our Technicians
         </div>
     </div>
 </div>
-<div id="technicians" class="container-fluid full-height bg-warning "><p>Test 3</p></div>
-<div id="location" class="container-fluid full-height bg-danger "><p>Test 3</p></div>
+<div id="location" class="container-fluid full-height section-top-buffer background-wood-beach ">
+    <div
+            class="d-flex flex-row  p-3 justify-content-end jumbotron">
+        <div class="display-3 justify-content-end w-100 "
+             style="color: #005e80 "><span class="d-flex justify-content-end">Visit Us</span>
+        </div>
+    </div>
+    <div class="jumbotron p-3" style="width:50%;height:75%;"><div id="googleMap"
+                                                              style="width:100%;height:100%;"
+                                class="shadow-lg p-4 mb-4 bg-white "></div></div>
+<!--    <div id="googleMap" style="width:50%;height:70%;"-->
+<!--         class="shadow-lg p-4 mb-4 bg-white "></div>-->
+
+
+
+
+</div>
+<script>
+    function myMap() {
+        var myLatlng = new google.maps.LatLng(49.152320,-125.905643);
+        var mapProp= {
+            center:myLatlng,
+            zoom:14,
+        };
+
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        var marker = new google.maps.Marker({position: myLatlng, title:
+                "Tofino Riding Company"});
+        marker.setMap(map);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAexSzqpsVur2eGabrDPgR4g_WgZRiD2Ek&callback=myMap"></script>
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

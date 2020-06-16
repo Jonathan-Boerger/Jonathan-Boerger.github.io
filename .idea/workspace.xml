@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bead541-88f3-495f-b3fa-53829c00b9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/TRC.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/eberhard-grossgasteiger-8lDkmXnKo7s-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/reference material.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/5012358-BK000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/5024726-BK165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/5064698-BK000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/6005371-BK000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/toolkit-5058878-NOC02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEG3525_Module4/unior-20-piece-bike-tool-set-1600a7-3-1455502494881-11d873a0095sh-f757971.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module4/TRC.css" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module4/TRC.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html" beforeDir="false" afterPath="$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +26,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="668">
+              <caret line="241" selection-start-line="241" selection-end-line="241" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2253#2259#1" expanded="true" />
@@ -33,6 +36,19 @@
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#10546#10552#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#10174#10181#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module4/TRC.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="63">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -50,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module4/reference material.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4007">
-              <caret line="251" selection-start-line="251" selection-end-line="251" />
+            <state relative-caret-position="437">
+              <caret line="231" column="30" lean-forward="true" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="30" />
               <folding>
                 <element signature="e#3791#3798#1" expanded="true" />
                 <element signature="e#5205#5212#1" expanded="true" />
@@ -93,8 +109,8 @@
         <option value="$PROJECT_DIR$/SEG3525_Module3/grocery_mod3.html" />
         <option value="$PROJECT_DIR$/SEG3525_Module3/styles/style_v2.css" />
         <option value="$PROJECT_DIR$/SEG3525_Module4/reference material.html" />
-        <option value="$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html" />
         <option value="$PROJECT_DIR$/SEG3525_Module4/TRC.css" />
+        <option value="$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html" />
       </list>
     </option>
   </component>
@@ -181,12 +197,12 @@
       <workItem from="1591136396919" duration="2147000" />
       <workItem from="1591627832834" duration="10077000" />
       <workItem from="1591651642084" duration="15306000" />
-      <workItem from="1592238126066" duration="12038000" />
+      <workItem from="1592238126066" duration="29125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37421000" />
+    <option name="totallyTimeSpent" value="54508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -299,10 +315,22 @@
     <entry file="file://$PROJECT_DIR$/seg3525_mod1.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module4/5024726-BK165.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module4/5064698-BK000.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module4/6005371-BK000.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEG3525_Module4/toolkit-5058878-NOC02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module4/reference material.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4007">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        <state relative-caret-position="437">
+          <caret line="231" column="30" lean-forward="true" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="30" />
           <folding>
             <element signature="e#3791#3798#1" expanded="true" />
             <element signature="e#5205#5212#1" expanded="true" />
@@ -318,17 +346,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module4/TRC.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="63">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Compagny.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="668">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2253#2259#1" expanded="true" />
@@ -336,6 +363,19 @@
             <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10546#10552#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10174#10181#1" expanded="true" />
           </folding>
         </state>
       </provider>
