@@ -133,3 +133,16 @@ html, body {
     width: 90%;
 }
 
+.btn-orange{
+    background-color: orangered;
+}
+
+.btn-orange:hover{
+    background-color: rgba(209, 52, 0, 0.89);
+}
+
+.centered_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

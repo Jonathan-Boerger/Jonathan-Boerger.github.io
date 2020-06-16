@@ -21,7 +21,7 @@
     <!--        Navbar code adapter from W3 Schools at https://www.w3schools.com/bootstrap4/tryit
     .asp?filename=trybs_navbar_collapse -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
-        <a class="navbar-brand" href="#home">Tofino Riding Compagny</a>
+        <a class="navbar-brand" href="#home">Tofino Riding Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -48,13 +48,19 @@
 <div id="home" class="container-fluid mt-5  full-height bg-mountain-bike"
      style="min-height: 100%;height: 100%;width: 100%">
     <div class="mt-5" style="height: 20%">&nbsp;</div>
-    <div id="TRC" class="mx-auto mb-5 display-2 text-white text-center font-weight-bold">
+    <div class="mx-auto mb-5 display-2 text-white text-center font-weight-bold d-none d-sm-block">
+        Tofino
+        Riding Company
+    </div>
+    <div class="mx-auto mb-5 display-3 text-white text-center font-weight-bold d-sm-none">
         Tofino
         Riding Company
     </div>
     <div class="d-sm-flex flex-sm-row justify-content-sm-center mt-5">
         <div class="col-sm-4 mt-4">
-            <button class="button mx-auto w-100">Book Service</button>
+            <button type="button" data-toggle="modal" data-target="#myModal"
+                    class=" btn text-white border-0 rounded-lg pl-5 pr-5 pt-2 pb-2 btn-orange centered_img">
+            <h3>Schedule A Repair</h3></button>
         </div>
         <!--            <div></div>class="col-sm-4 mt-4"><button class="button mx-auto w-100">Discover-->
         <!--                TRC</button></div>-->
@@ -78,7 +84,8 @@
 <div id="services" class="container-fluid bg-light section-top-buffer background-ocean ">
     <div class="d-flex flex-row  p-3 justify-content-end jumbotron">
         <div class="display-3 justify-content-end w-100 "
-             style="color: #005e80 "><span class="d-flex justify-content-end">Repairs</span>
+             style="color: #005e80 "><span class="d-flex justify-content-end">Repairs
+            Services</span>
         </div>
     </div>
     <div class="container mx-auto jumbotron">
@@ -86,6 +93,7 @@
         <div class="card-columns mx-auto">
 
             <div class="card mx-auto">
+
                 <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
                      src='https://www.bikeparts.com/cms/tiles/lg/tile293.jpg' alt="Bike pedal">
                 <div class="card-image-middle text-white  bg-blue-light ">
@@ -201,74 +209,153 @@
             </div>
         </div>
     </div>
+    <div class="jumbotron mx-auto container p-3">
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn-block btn text-white border-0 rounded-lg p-1 btn-orange">
+            <h3>Schedule A Repair</h3></button>
+    </div>
+
     <div class="" style="height: 20%">&nbsp;</div>
 </div>
-<div id="technicians" class="container-fluid full-height section-top-buffer background-ocean-2 ">
+<div id="technicians" class="container-fluid  section-top-buffer background-ocean-2 ">
     <div class="d-flex flex-row  p-3 jumbotron">
-        <div class="display-3 justify-content-start w-100  "
+        <div class="display-3 justify-content-start w-100 d-none d-sm-block "
+             style="color: #005e80"> Our Technicians
+        </div>
+        <div class="display-4 justify-content-start w-100 d-sm-none "
              style="color: #005e80"> Our Technicians
         </div>
     </div>
+
+    <div class="d-flex flex-row container-fluid row justify-content-center m-0" >
+        <div class="jumbotron col-sm-4 p-2 m-2">
+            <div class="card" style="width:100%">
+                <img class="card-img-top image-fluid"
+                     src="https://images.unsplash.com/photo-1557327838-9a5d011670b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                     alt="Daniel">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #005e80">Daniel Rollings</h4>
+                    <p class="card-text">Daniel has been with us for the last 3 years.
+                        Optionally from Comox, he has grown up living and riding on the island.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="jumbotron col-sm-4 p-2 m-2">
+            <div class="card" style="width:100%">
+                <img class="card-img-top image-fluid"
+                     src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="Robbie">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #005e80">Robbie Williams</h4>
+                    <p class="card-text">Robbie has just recently joined us, bringing extensive
+                        mountain biking repair experience from his time in Banff.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="" style="height: 20%">&nbsp;</div>
 </div>
-<div id="location" class="container-fluid full-height section-top-buffer background-wood-beach ">
+<div id="location" class="container-fluid  section-top-buffer background-wood-beach ">
     <div
             class="d-flex flex-row  p-3 justify-content-end jumbotron">
         <div class="display-3 justify-content-end w-100 "
              style="color: #005e80 "><span class="d-flex justify-content-end">Visit Us</span>
         </div>
     </div>
-    <div class="jumbotron p-3" style="width:50%;height:75%;"><div id="googleMap"
-                                                              style="width:100%;height:100%;"
-                                class="shadow-lg p-4 mb-4 bg-white "></div></div>
-<!--    <div id="googleMap" style="width:50%;height:70%;"-->
-<!--         class="shadow-lg p-4 mb-4 bg-white "></div>-->
 
-
-
-
-</div>
-<script>
-    function myMap() {
-        var myLatlng = new google.maps.LatLng(49.152320,-125.905643);
-        var mapProp= {
-            center:myLatlng,
-            zoom:14,
-        };
-
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        var marker = new google.maps.Marker({position: myLatlng, title:
-                "Tofino Riding Company"});
-        marker.setMap(map);
-    }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAexSzqpsVur2eGabrDPgR4g_WgZRiD2Ek&callback=myMap"></script>
-
-
-<!-- The Modal -->
-<div class="modal" id="myModal">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <div class="row mt-5  " style="height: 80%;">
+        <div class="col-sm-6 jumbotron p-2 justify-content-sm-center m-4 full-height"
+             style=" height: 500px;">
+            <div id="googleMap"
+                 style="width:100%;height:100%;" class="shadow-lg p-2  bg-white full-height">&nbsp;
             </div>
+        </div>
+        <div class="col-sm-4 jumbotron p-3 m-4" style="height: 500px;">
+            <div class="d-flex flex-column " style="height: 100%">
+                <div
+                        class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
+                    <div class="p-2"><i
+                                class="fas fa-map-marked-alt fa-3x"
+                                style="color: orangered"></i></div>
+                        <div >Tofino Riding Company <br>
+                            380-350 Campbell Street <br>
+                            Tofino, BC</div>
 
-            <!-- Modal body -->
-            <div class="modal-body">
-                Modal body..
+
+                </div>
+                <div
+                        class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
+                    <div class="p-2"><i
+                            class="fas fa-phone fa-3x"
+                            style="color: orangered"></i></div>
+                    <div >250-555-5955 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+
+                </div>
+                <div
+                        class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
+                    <div class="p-2"><i
+                            class="fas fa-at fa-3x"
+                            style="color: orangered"></i></div>
+                    <div >tofino.riding@trc.ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+
+                </div>
             </div>
+        </div>
+        <!--            <div></div>class="col-sm-4 mt-4"><button class="button mx-auto w-100">Discover-->
+        <!--                TRC</button></div>-->
 
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+    </div>
+    <script>
+        function myMap() {
+            var myLatlng = new google.maps.LatLng(49.152320, -125.905643);
+            var mapProp = {
+                center: myLatlng,
+                zoom: 14,
+            };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var marker = new google.maps.Marker({
+                position: myLatlng, title:
+                    "Tofino Riding Company"
+            });
+            marker.setMap(map);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAexSzqpsVur2eGabrDPgR4g_WgZRiD2Ek&callback=myMap"></script>
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
             </div>
-
         </div>
     </div>
-</div>
 
 </body>
 </html>
