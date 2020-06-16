@@ -27,9 +27,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
+            <state relative-caret-position="63">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,13 +48,21 @@
                 <element signature="e#4462#4468#1" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4513#4519#1" expanded="true" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#10546#10552#1" expanded="true" />
                 <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -295,12 +304,12 @@
       <workItem from="1591136396919" duration="2147000" />
       <workItem from="1591627832834" duration="10077000" />
       <workItem from="1591651642084" duration="15306000" />
-      <workItem from="1592238126066" duration="53233000" />
+      <workItem from="1592238126066" duration="53897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78616000" />
+    <option name="totallyTimeSpent" value="79280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -460,9 +469,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SEG3525_Module4/Tofino_Riding_Company.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
+        <state relative-caret-position="63">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -480,13 +490,21 @@
             <element signature="e#4462#4468#1" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4513#4519#1" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#10546#10552#1" expanded="true" />
             <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
