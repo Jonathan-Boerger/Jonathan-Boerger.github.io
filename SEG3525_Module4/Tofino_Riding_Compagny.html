@@ -60,7 +60,7 @@
         <div class="col-sm-4 mt-4">
             <button type="button" data-toggle="modal" data-target="#myModal"
                     class=" btn text-white border-0 rounded-lg pl-5 pr-5 pt-2 pb-2 btn-orange centered_img">
-            <h3>Schedule A Repair</h3></button>
+                <h3>Schedule A Repair</h3></button>
         </div>
         <!--            <div></div>class="col-sm-4 mt-4"><button class="button mx-auto w-100">Discover-->
         <!--                TRC</button></div>-->
@@ -210,7 +210,8 @@
         </div>
     </div>
     <div class="jumbotron mx-auto container p-3">
-        <button type="button" data-toggle="modal" data-target="#myModal" class="btn-block btn text-white border-0 rounded-lg p-1 btn-orange">
+        <button type="button" data-toggle="modal" data-target="#myModal"
+                class="btn-block btn text-white border-0 rounded-lg p-1 btn-orange">
             <h3>Schedule A Repair</h3></button>
     </div>
 
@@ -226,7 +227,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-row container-fluid row justify-content-center m-0" >
+    <div class="d-flex flex-row container-fluid row justify-content-center m-0">
         <div class="jumbotron col-sm-4 p-2 m-2">
             <div class="card" style="width:100%">
                 <img class="card-img-top image-fluid"
@@ -245,7 +246,8 @@
         <div class="jumbotron col-sm-4 p-2 m-2">
             <div class="card" style="width:100%">
                 <img class="card-img-top image-fluid"
-                     src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="Robbie">
+                     src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                     alt="Robbie">
                 <div class="card-body">
                     <h4 class="card-title" style="color: #005e80">Robbie Williams</h4>
                     <p class="card-text">Robbie has just recently joined us, bringing extensive
@@ -279,11 +281,12 @@
                 <div
                         class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
                     <div class="p-2"><i
-                                class="fas fa-map-marked-alt fa-3x"
-                                style="color: orangered"></i></div>
-                        <div >Tofino Riding Company <br>
-                            380-350 Campbell Street <br>
-                            Tofino, BC</div>
+                            class="fas fa-map-marked-alt fa-3x"
+                            style="color: orangered"></i></div>
+                    <div>Tofino Riding Company <br>
+                        380-350 Campbell Street <br>
+                        Tofino, BC
+                    </div>
 
 
                 </div>
@@ -292,7 +295,7 @@
                     <div class="p-2"><i
                             class="fas fa-phone fa-3x"
                             style="color: orangered"></i></div>
-                    <div >250-555-5955 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div>250-555-5955 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 
                 </div>
@@ -301,7 +304,7 @@
                     <div class="p-2"><i
                             class="fas fa-at fa-3x"
                             style="color: orangered"></i></div>
-                    <div >tofino.riding@trc.ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div>tofino.riding@trc.ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 
                 </div>
@@ -334,28 +337,102 @@
 
     <!-- The Modal -->
     <div class="modal" id="myModal">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
+                    <h4 class="modal-title">Bike Repair Service Scheduling Tool</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <br>
+
+
+
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
-                    Modal body..
+                <div class="modal-body m-2">
+                    <form>
+                        <div class="form-group row">
+                            <label for="repair_selection">Select Repair Type:</label>
+                            <select class="form-control" id="repair_selection">
+                                <option>Pedal Replacement</option>
+                                <option>Tune Up</option>
+                                <option>Tire Replacement</option>
+                                <option>Derailleur Repair</option>
+                                <option>Crank Balancing</option>
+                                <option>Brake Repair</option>
+                                <option>Unsure of Required Service</option>
+                                <option>Other</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                            <label for="date-selection">Select Repair Date:</label>
+                            <input class="form-control" type="date"
+                                   value="2020-06-16" id="date-selection" min="2020-06-16">
+                        </div>
+                        <div class="form-group row">
+                            <label for="time-selection">Select Repair Time:</label>
+                            <input class="form-control" type="time"
+                                   value="09:00" id="time-selection" min="09:00" max="17:00"
+                                   step="900">
+                        </div>
+                        <div class="form-group row">
+                            <label for="name">Name (First &amp; Last):</label>
+                            <input class="form-control" type="text"
+                                   placeholder="Name" id="name">
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone">Phone Number:</label>
+                            <input class="form-control" type="tel"
+                                   placeholder="(250) 555-9555" id="phone">
+                        </div>
+                        <div class="form-group row">
+                            <label for="email">Email Adress:</label>
+                            <input class="form-control" type="email"
+                                   placeholder="repair@trc.ca" id="email">
+                        </div>
+                        <div class="  m-0 form-group row" >
+                        <button type="button" class="btn btn-block btn-orange text-white"
+                                onclick="success_alert_view()"
+                        ><h5>Book Repair</h5>
+                        </button>
+                            <div id="success_alert"
+                                    class="alert alert-success alert-dismissible fade text-center  show mt-3"
+                                 style="width: 100% ; opacity: 0;">
+                                <button type="button" onclick="hide_alert()" class="close" >&times;
+                                </button>
+                                <strong>Success!</strong> Your repair appointment has been
+                                scheduled.
+                            </div>
+                        </div>
+
+
+                    </form>
                 </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                 </div>
+
 
             </div>
         </div>
     </div>
 
+
 </body>
 </html>
+
+<script>
+    function success_alert_view(){
+        document.getElementById('success_alert').setAttribute('style','width: 100%; opacity: 1;')
+    }
+
+    function hide_alert(){
+        document.getElementById('success_alert').setAttribute('style','width: 100%; opacity: 0;')
+    }
+</script>

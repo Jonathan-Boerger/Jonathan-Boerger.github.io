@@ -248,7 +248,7 @@ function back_to_client(){
 	// method to switch the tabs to the products list when the button is pressed
 
 	openInfo(event, 'Client');
-	document.getElementById('nav_bar_client').className +=" active";
+	document.getElementById('nav_bar_client').className +=" active ";
 }
 
 // JS accordion code adapted from W3 Schools at https://www.w3schools.com/howto/howto_js_accordion.asp
