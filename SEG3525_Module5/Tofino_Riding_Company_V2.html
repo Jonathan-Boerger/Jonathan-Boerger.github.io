@@ -7,14 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="TRC.css" type="text/css">
+    <link rel="stylesheet" href="TRC_V2.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
           crossorigin="anonymous">
     <link rel="icon" href="bicycle-solid.svg">
+    <script src="TRC_V2.js"></script>
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
@@ -23,7 +33,7 @@
     <!--        Navbar code adapter from W3 Schools at https://www.w3schools.com/bootstrap4/tryit
     .asp?filename=trybs_navbar_collapse -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
-        <a class="navbar-brand" href="#home">Tofino Riding Company</a>
+        <a class="navbar-brand" href="#home" style="font-weight: bold">Tofino Riding Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavbar" style="background-color: orangered">
             <span class="navbar-toggler-icon" style="color: orangered"> </span>
@@ -31,16 +41,27 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Our Story</a>
+                    <a class="nav-link" href="#about"><i
+                            class="fas fa-bicycle fa-lg fa-fw nav-bar-link-icon"
+                    ></i> Our
+                        Story &nbsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Repair Services</a>
+                    <a class="nav-link" href="#services"><i
+                            class="fas fa-tools fa-lg fa-fw nav-bar-link-icon"
+                    ></i> Repair
+                        Services &nbsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#technicians">Our Technicians</a>
+                    <a class="nav-link" href="#technicians"><i
+                            class="fas fa-user-cog fa-lg fa-fw nav-bar-link-icon"></i>
+                        Our
+                        Technicians &nbsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#location">Visit Us</a>
+                    <a class="nav-link" href="#location"><i
+                            class="fas fa-map-signs fa-lg fa-fw nav-bar-link-icon"></i>
+                        Visit Us</a>
                 </li>
             </ul>
         </div>
@@ -77,13 +98,18 @@
 </div>
 <div id="about" class="container-fluid  bg-light section-top-buffer background-beach"
      style="min-height: 80%">
-    <div class="d-flex flex-row  p-3 jumbotron">
-        <div class="display-3 justify-content-start w-100  "
-             style="color: #005e80">About
+    <div class="d-flex flex-row  p-3 jumbotron justify-content-between align-items-center"
+         style="color: #005e80">
+
+        <div class="display-3   "
+        >About
             Us
         </div>
+
+        <div><i class="fas fa-bicycle  fa-4x p-3 d-sm-none"></i></div>
+        <div><i class="fas fa-bicycle  fa-5x p-3 d-none d-sm-block"></i></div>
     </div>
-    <div class="container-fluid jumbotron mx-auto mt-5 p-3 " style="width: 80%; font-size: 1.5rem" >
+    <div class="container-fluid jumbotron mx-auto mt-5 p-3 " style="width: 80%; font-size: 1.5rem">
         <div class="d-flex flex-column m-1">
 
             <div> Tofino Biking Company was first started in 2015 to bring a bike focused
@@ -104,13 +130,16 @@
 <!--         Repair services section-->
 <div id="services" class="container-fluid bg-light section-top-buffer background-ocean ">
     <!--            Section title-->
-    <div class="d-flex flex-row  p-3 justify-content-end jumbotron">
-        <div class="display-3 justify-content-end w-100 "
-             style="color: #005e80 "><span class="d-flex justify-content-end">Repairs
+    <div class="d-flex flex-row  p-3 justify-content-between jumbotron align-items-center"
+         style="color: #005e80 ">
+        <div><i class="fas fa-tools  fa-5x p-3 d-none d-sm-block"></i></div>
+        <div><i class="fas fa-tools  fa-4x p-3 d-sm-none"></i></div>
+        <div class="display-3 w-100 "
+        ><span class="d-flex justify-content-end">Repairs
             Services</span>
         </div>
     </div>
-<!--    Container of cards of repairs-->
+    <!--    Container of cards of repairs-->
     <div class="container mx-auto jumbotron">
         <!--        All pictures source from https://www.bikeparts.com/categories/bike-parts-components/-->
         <div class="card-columns mx-auto">
@@ -192,7 +221,7 @@
                     </h5>
                 </div>
             </div>
-<!--            Repair: Derailleur-->
+            <!--            Repair: Derailleur-->
             <div class="card  mx-auto ">
                 <img class="card-img-top service_imgae bg-info border border-info border-bottom-0"
                      src='https://www.bikeparts.com/cms/tiles/lg/tile19.jpg' alt="Bike derailleur">
@@ -237,7 +266,7 @@
             </div>
         </div>
     </div>
-<!--Repair button-->
+    <!--Repair button-->
     <div class="jumbotron mx-auto container p-3">
         <button type="button" data-toggle="modal" data-target="#myModal"
                 class="btn-block btn text-white border-0 rounded-lg p-1 btn-orange">
@@ -248,18 +277,22 @@
 </div>
 
 <!-- The technician section-->
-<div id="technicians" class="container-fluid  section-top-buffer background-ocean-2 ">
-<!--    Section tile for regular screens-->
-    <div class="d-flex flex-row  p-3 jumbotron">
+<div id="technicians" class="container-fluid  section-top-buffer background-ocean-2 "
+     style="color: #005e80">
+    <!--    Section tile for regular screens-->
+    <div class="d-flex flex-row  p-3 jumbotron justify-content-between align-items-center">
         <div class="display-3 justify-content-start w-100 d-none d-sm-block "
-             style="color: #005e80"> Our Technicians
+        > Our Technicians
         </div>
-<!--        Section title for small screens-->
+        <!--        Section title for small screens-->
         <div class="display-4 justify-content-start w-100 d-sm-none "
-             style="color: #005e80"> Our Technicians
+        > Our Technicians
         </div>
+        <div><i class="fas fa-user-cog  fa-5x p-3 d-none d-sm-block"></i></div>
+        <div><i class="fas fa-user-cog  fa-4x p-3 d-sm-none"></i></div>
+
     </div>
-<!--Technichians cards-->
+    <!--Technichians cards-->
     <div class="d-flex flex-row container-fluid row justify-content-center m-0">
         <div class="jumbotron col-sm-4 p-2 m-2">
             <div class="card" style="width:100%">
@@ -268,7 +301,7 @@
                      alt="Daniel">
                 <div class="card-body">
                     <h4 class="card-title" style="color: #005e80">Daniel Rollings</h4>
-                    <p class="card-text">Daniel has been with us for the last 3 years.
+                    <p class="card-text text-dark ">Daniel has been with us for the last 3 years.
                         Originally from Comox, he has grown up living and riding on the island.
                     </p>
 
@@ -283,7 +316,8 @@
                      alt="Robbie">
                 <div class="card-body">
                     <h4 class="card-title" style="color: #005e80">Robbie Williams</h4>
-                    <p class="card-text">Robbie has just recently joined us, bringing extensive
+                    <p class="card-text text-dark">Robbie has just recently joined us, bringing
+                        extensive
                         mountain biking repair experience from his time in Banff.
                     </p>
 
@@ -296,34 +330,41 @@
 </div>
 
 <!-- Visit Us sectiom -->
-<div id="location" class="container-fluid  section-top-buffer background-wood-beach ">
-<!--    Section title-->
-    <div class="d-flex flex-row  p-3 justify-content-end jumbotron">
+<div id="location" class="container-fluid  section-top-buffer background-wood-beach "
+     style="color: #005e80 ">
+    <!--    Section title-->
+    <div class="d-flex flex-row  p-3 justify-content-between jumbotron">
+        <div><i class="fas fa-map-signs  fa-5x p-3 d-none d-sm-block"></i></div>
+        <div><i class="fas fa-map-signs  fa-4x p-3 d-sm-none"></i></div>
         <div class="display-3 justify-content-end w-100 "
-             style="color: #005e80 "><span class="d-flex justify-content-end">Visit Us</span>
+        ><span class="d-flex justify-content-end">Visit Us</span>
         </div>
     </div>
-<!--Map and adress deatails section-->
+    <!--Map and adress deatails section-->
     <div class="row mt-5  " style="height: 80%;">
-<!--        Embeded google maps-->
+        <!--        Embeded google maps-->
         <div class="col-sm-6 jumbotron p-2 justify-content-sm-center m-4 full-height"
              style=" height: 500px;">
             <div id="googleMap"
                  style="width:100%;height:100%;" class="shadow-lg p-2  bg-white full-height">&nbsp;
             </div>
         </div>
-<!--        Adress details -->
+        <!--        Adress details -->
         <div class="col-sm-4 jumbotron p-2 m-4" style="height: 500px;">
             <div class="d-flex flex-column " style="height: 100%">
                 <div class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
-                    <div class="p-2"><i
-                            class="fas fa-map-marked-alt fa-3x"
-                            style="color: orangered"></i></div>
-                    <div><a href="https://www.google.ca/maps/@49.1522785,-125.9065182,17.25z"
+                    <div class="p-2"><a
+                            href="https://www.google.ca/maps/place/Village+Green,+Tofino,+BC/@49.1515786,-125.9099587,15.25z/data=!4m5!3m4!1s0x5489972d9c55b18f:0xfe5be0947fe299e9!8m2!3d49.152364!4d-125.9056585"
                             target="_blank"
-                            class="c-us"> Tofino Riding Company <br>
-                        380-350 Campbell Street <br>
-                        Tofino, BC </a>
+                    ><i
+                            class="fas fa-map-marked-alt fa-3x"
+                            style="color: orangered"></i></a></div>
+                    <div>
+                        <a href="https://www.google.ca/maps/place/Village+Green,+Tofino,+BC/@49.1515786,-125.9099587,15.25z/data=!4m5!3m4!1s0x5489972d9c55b18f:0xfe5be0947fe299e9!8m2!3d49.152364!4d-125.9056585"
+                           target="_blank"
+                           class="c-us"> Tofino Riding Company <br>
+                            380-350 Campbell Street <br>
+                            Tofino, BC </a>
                     </div>
                 </div>
                 <div
@@ -335,9 +376,9 @@
                 </div>
                 <div
                         class="flex-fill d-inline-flex justify-content-around align-items-center bg-dark m-2 p-2 text-white ">
-                    <div class="p-2"><i
+                    <div class="p-2"><a href="mailto:tofino.riding@trc.ca" target="_blank"><i
                             class="fas fa-at fa-3x"
-                            style="color: orangered"></i></div>
+                            style="color: orangered"></i></a></div>
                     <div><a href="mailto:tofino.riding@trc.ca" target="_blank" class="c-us">
                         tofino.riding@trc.ca</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;
@@ -347,7 +388,7 @@
         </div>
 
 
-<!--   Map code adapted from https://www.w3schools.com/graphics/google_maps_intro.asp-->
+        <!--   Map code adapted from https://www.w3schools.com/graphics/google_maps_intro.asp-->
     </div>
     <script>
         function myMap() {
@@ -388,59 +429,181 @@
 
 
             <div class="modal-body m-2">
-                <form>
+                <form class="needs-validation" novalidate id="repair_schedule">
                     <div class="form-group row">
+
                         <label for="repair_selection">Select Repair Type:</label>
-                        <select class="form-control" id="repair_selection">
-                            <option>Pedal Replacement</option>
-                            <option>Tune Up</option>
-                            <option>Tire Replacement</option>
-                            <option>Derailleur Repair</option>
-                            <option>Crank Balancing</option>
-                            <option>Brake Repair</option>
-                            <option>Unsure of Required Service</option>
-                            <option>Other</option>
-                        </select>
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i
+                                        class="fas fa-tools fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <select class="form-control " id="repair_selection">
+                                <option>Pedal Replacement</option>
+                                <option>Tune Up</option>
+                                <option>Tire Replacement</option>
+                                <option>Derailleur Repair</option>
+                                <option>Crank Balancing</option>
+                                <option>Brake Repair</option>
+                                <option>Unsure of Required Service</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
 
                     </div>
                     <div class="form-group row">
+
+                        <label for="tech_selection">Select Preferred Technician:</label>
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i
+                                        class="fas fa-user-cog fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <select class="form-control " id="tech_selection">
+                                <option>No Preference</option>
+                                <option>Daniel Rollings</option>
+                                <option>Robbie Williams</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+
+
                         <label for="date-selection">Select Repair Date:</label>
-                        <input class="form-control" type="date"
-                               value="2020-06-16" id="date-selection" min="2020-06-16">
+                        <div class="input-group date  " id="date_picker"  style="z-index: 3000;">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i
+                                        class="fas fa-calendar-alt fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control" type="date"
+                                   value="2020-06-16" id="date-selection" min="2020-06-16">
+                        </div>
                     </div>
+
                     <div class="form-group row">
+
                         <label for="time-selection">Select Repair Time:</label>
-                        <input class="form-control" type="time"
-                               value="09:00" id="time-selection" min="09:00" max="17:00"
-                               step="900">
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i
+                                        class="fas fa-clock fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control " type="time"
+                                   value="09:00" id="time-selection" min="09:00"
+                                   max="17:00"
+                                   step="900">
+                        </div>
                     </div>
                     <div class="form-group row">
+
                         <label for="name">Name (First &amp; Last):</label>
-                        <input class="form-control" type="text"
-                               placeholder="Name" id="name">
+
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i
+                                        class="fas fa-user fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control  " type="text"
+                                   placeholder="Name" id="name">
+                        </div>
+                        <div id="name_fb" class=" text-danger feedback_hidden ml-3">Please input a
+                            valid
+                            name.
+                        </div>
+
                     </div>
                     <div class="form-group row">
+
                         <label for="phone">Phone Number:</label>
-                        <input class="form-control" type="tel"
-                               placeholder="(250) 555-9555" id="phone">
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i
+                                        class="fas fa-phone fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control " type="text"
+                                   placeholder="250-555-9555" id="phone">
+
+                        </div>
+                        <div id='phone_fb' class=" text-danger feedback_hidden ml-3">Please input a
+                            valid
+                            phone
+                            number in the form ###-###-####.
+                        </div>
                     </div>
                     <div class="form-group row">
+
                         <label for="email">Email Adress:</label>
-                        <input class="form-control" type="email"
-                               placeholder="repair@trc.ca" id="email">
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i
+                                        class="fas fa-at fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control " type="text"
+                                   placeholder="repair@trc.ca" id="email">
+
+                        </div>
+                        <div id="email_fb" class=" text-danger feedback_hidden ml-3">Please input a
+                            valid
+                            email
+                            address.
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <label for="credit_card">Credit Card Number</label> &nbsp; <a href="#"
+                                                                                      class="text-info"
+                                                                                      data-toggle="tooltip"
+                                                                                      title="A credit card number is required to book a repair. You will not be charged until after the repair is completed."><i
+                            class="fas fa-info-circle  fa-fw pt-1"></i></a>
+
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i
+                                        class="fas fa-credit-card fa-lg fa-fw"></i>&nbsp;</span>
+                            </div>
+                            <input class="form-control " type="text"
+                                   placeholder="4578 4562 5643 9173" id="credit_card">
+
+                        </div>
+                        <div id="cc_fb" class=" text-danger feedback_hidden ml-3">Please input a
+                            valid
+                            credit
+                            card number in the following format #### #### #### ####.
+                        </div>
+
                     </div>
                     <div class="  m-0 form-group row">
                         <button type="button" class="btn btn-block btn-orange text-white"
-                                onclick="success_alert_view()"
+                                id="form_submit_btn"
                         ><h5>Book Repair</h5>
                         </button>
                         <div id="success_alert"
-                             class="alert alert-success alert-dismissible fade text-center  show mt-3"
-                             style="width: 100% ; opacity: 0;">
-                            <button type="button" onclick="hide_alert()" class="close">&times;
+                             class="alert alert-success alert-dismissible fade text-center feedback_hidden  mt-3"
+                             style="width: 100% ;opacity: 1">
+                            <button type="button" id="success_alert_btn" class="close">&times;
                             </button>
                             <strong>Success!</strong> Your repair appointment has been
                             scheduled.
+                        </div>
+                        <div id="failed_alert"
+                             class="alert alert-danger alert-dismissible fade text-center feedback_hidden  mt-3"
+                             style="width: 100% ; opacity: 1">
+                            <button type="button" id="failed_alert_btn" class="close">&times;
+                            </button>
+                            <strong>Failed.</strong> Please fill out the form correctly.
+                        </div>
+                        <div id="incomplete_alert"
+                             class="alert alert-warning alert-dismissible fade text-center feedback_hidden  mt-3"
+                             style="width: 100% ;opacity: 1 ">
+                            <button type="button" id="incomplete_alert_btn" class="close">&times;
+                            </button>
+                            <strong>Failed.</strong> Please fill out all fields in the form.
                         </div>
                     </div>
 
@@ -449,7 +612,7 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" onclick="hide_alert()" class="btn btn-danger"
+                <button type="button" id="modal_close_btn" class="btn btn-danger"
                         data-dismiss="modal">Close
                 </button>
 
@@ -467,25 +630,23 @@
     <div class="d-flex flex-inline  bg-dark p-2 text-center justify-content-around"
          style="width: 100%">
 
-        <div class="text-white col-sm-4"> <span class="text-info"> Site Created by: </span><br>
+        <div class="text-white col-sm-4"><span class="text-info"> Site Created by: </span><br>
             Jonathan
             Boerger
             <br>
             University of
             Ottawa
-            <br> SEG 3525 </div>
-        <div class="text-white col-sm-4"> <span class="text-info"> Disclaimer: </span><br>
-            Tofino Riding Company is not a real buisness</div>
+            <br> SEG 3525
+        </div>
+        <div class="text-white col-sm-4"><span class="text-info"> Disclaimer: </span><br>
+            Tofino Riding Company is not a real buisness
+            <br><br>
+            Iteration one of this website can be found <a
+                    href="https://jonathan-boerger.github.io/SEG3525_Module4/Tofino_Riding_Company.html"
+                    target="_blank" style="color: #ff4500">here</a>
+        </div>
     </div>
 </footer>
 </html>
 
-<script>
-    function success_alert_view() {
-        document.getElementById('success_alert').setAttribute('style', 'width: 100%; opacity: 1;')
-    }
 
-    function hide_alert() {
-        document.getElementById('success_alert').setAttribute('style', 'width: 100%; opacity: 0;')
-    }
-</script>
